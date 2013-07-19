@@ -15,7 +15,14 @@ void loop()
   delay(100);
   
   if(kallistus1 == 0 || kallistus2 == 0) {
-    tone(12, 1200);
+    for (int taajuus=415; taajuus <= 615; taajuus++) {
+      tone(12, taajuus);
+      delay(5);
+    }
+    for (int taajuus=615; taajuus > 415; taajuus--) {
+      tone(12, taajuus);
+      delay(5);
+    }
   }
   else {
     noTone(12);    
