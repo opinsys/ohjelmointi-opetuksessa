@@ -5,8 +5,12 @@ Servo oikea_tassu;
 
 boolean tahti = false;
 boolean painikkeen_edellinen_arvo = false;
-int vasemman_tassun_asento = 40;
-int oikean_tassun_asento = 0;
+int vasen_tassu_alhaalla = 40;
+int vasen_tassu_ylhaalla = 180;
+int oikea_tassu_alhaalla = 110;
+int oikea_tassu_ylhaalla = 0;
+int vasemman_tassun_asento = vasen_tassu_alhaalla;
+int oikean_tassun_asento = oikea_tassu_ylhaalla;
 
 void setup()
 {
@@ -21,28 +25,28 @@ void loop()
     if (painikkeen_edellinen_arvo == false) {
       tahti = true;
     }
-    painikken_edellinen_arvo = true;
+    painikkeen_edellinen_arvo = true;
   }
   else {
    painikkeen_edellinen_arvo = false;
   }
 
-  if(tahti == true) {
-    if (vasemman_tassun_asento == 40) {
-      vasen_tassu.write(180);
-      vasemman_tassun_asento = 180;
+  if (tahti == true) {
+    if (vasemman_tassun_asento == vasen_tassu_alhaalla) {
+      vasen_tassu.write(vasen_tassu_ylhaalla);
+      vasemman_tassun_asento = vasen_tassu_ylhaalla;
     }
     else {
-      vasen_tassu.write(40);
-      vasemman_tassun_asento = 40;
+      vasen_tassu.write(vasen_tassu_alhaalla);
+      vasemman_tassun_asento = vasen_tassu_alhaalla;
     }
-    if(oikean_tassun_asento == 0) {
-      oikea_tassu.write(110);
-      oikean_tassun_asento = 110;
+    if (oikean_tassun_asento == oikea_tassu_ylhaalla) {
+      oikea_tassu.write(oikea_tassu_alhaalla);
+      oikean_tassun_asento = oikea_tassu_alhaalla;
     }
     else {
-      oikea_tassu.write(0);
-      oikean_tassun_asento = 0;
+      oikea_tassu.write(oikea_tassu_ylhaalla);
+      oikean_tassun_asento = oikea_tassu_ylhaalla;
     }
   }
 
