@@ -24,7 +24,7 @@ Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, j
 
 **Kytkentäkaavio**
 
-![Kytkentäkaavio - Vilkutus](ohjeet/vilkutus_bb.jpg "Kytkentäkaavio")
+![Kytkentäkaavio - Vilkutus](kytkentakaaviot/vilkutus_bb.jpg "Kytkentäkaavio")
 
 *Video*
 
@@ -40,7 +40,7 @@ Nalle heiluttaa molempia tassujaan siten, että tassut ovat vastakkaisissa asenn
 
 **Kytkentäkaavio**
 
-![Kytkentäkaavio - Tassujen heilutus](ohjeet/tassujen_heilutus_bb.jpg "Kytkentäkaavio")
+![Kytkentäkaavio - Tassujen heilutus](kytkentakaaviot/tassujen_heilutus_bb.jpg "Kytkentäkaavio")
 
 **Lähdekoodi:** [tassujen_heilutus.ino](tassujen_heilutus/tassujen_heilutus.ino)
 
@@ -56,7 +56,7 @@ Nalle heiluttaa molempia tassuja painonapin tahdissa. Molemmilla tassuilla on ka
 
 **Kytkentäkaavio**
 
-![Kytkentäkaavio - Tassujen heilutus tahdissa](ohjeet/tassujen_heilutus_tahdissa_bb.jpg "Kytkentäkaavio")
+![Kytkentäkaavio - Tassujen heilutus tahdissa](kytkentakaaviot/tassujen_heilutus_tahdissa_bb.jpg "Kytkentäkaavio")
 
 **Lähdekoodi:** [tassujen_heilutus_tahdissa.ino](tassujen_heilutus_tahdissa/tassujen_heilutus_tahdissa.ino)
 
@@ -71,6 +71,6 @@ Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun 
 
 **Kytkentäkaavio**
 
-![Kytkentäkaavio - Varoitus kaatumisesta](ohjeet/varoitus_kaatumisesta_bb.jpg "Kytkentäkaavio")
+![Kytkentäkaavio - Varoitus kaatumisesta](kytkentakaaviot/varoitus_kaatumisesta_bb.jpg "Kytkentäkaavio")
 
 **Lähdekoodi:** [varoitus_kaatumisesta.ino](varoitus_kaatumisesta/varoitus_kaatumisesta.ino)
