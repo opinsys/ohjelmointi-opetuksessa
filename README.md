@@ -65,9 +65,9 @@ Nalle heiluttaa molempia tassuja painonapin tahdissa. Molemmilla tassuilla on ka
 Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun nalle nostetaan takaisin istuma asentoon.
 
 **Komponentit**
-* Piezo kaiutin: Pololu POLO30mmPIEZO1260
-* 2 x vastis: 1k Ohm
-* Asentosensori: ActiveRBS 040100
+* Piezo kaiutin: Pololu POLO 30mm PIEZO 1260
+* 2 x vastus: 1k Ohm
+* Asentosensori: Active RBS 040100
 
 **Kytkentäkaavio**
 
