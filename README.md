@@ -17,6 +17,8 @@ Yhteisön sivuilta löytyy asennusohjeet eri käyttöjärjestelmille
 
 ## Vilkutus
 
+Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, joiden välissää on kahden sekunnin viive.
+
 ![Kytkentäkaavio - Vilkutus](ohjeet/vilkutus_bb.jpg)
 
 [Lähdekoodi](vilkutus/vilkutus.ino)
@@ -25,17 +27,24 @@ Yhteisön sivuilta löytyy asennusohjeet eri käyttöjärjestelmille
 
 ## Tassujen heilutus
 
+Nalle heiluttaa molempia tassuja siten, että tassut ovat vastakkaisissa asennoissa. Molemmilla tassuilla on vain kaksi asentoa, joita vuorotellaan kahden sekunnin välein.
+
 ![Kytkentäkaavio - Tassujen heilutus](ohjeet/tassujen_heilutus_bb.jpg)
 
 [Lähdekoodi](tassujen_heilutus/tassujen_heilutus.ino)
 
 ## Tassujen heilutus tahdissa
 
+Nalle heiluttaa molempia tassuja painonapin tahdissa. Molemmilla tassuilla on kaksi asentoa ja ne ovat aina vastakkaisissa asennoissa. Asentoa vaihdetaan aina kuin nappia painetaan.
+
 ![Kytkentäkaavio - Tassujen heilutus tahdissa](ohjeet/tassujen_heilutus_tahdissa_bb.jpg)
 
 [Lähdekoodi](tassujen_heilutus_tahdissa/tassujen_heilutus_tahdissa.ino)
 
 ## Varoitus kaatumisesta
+
+Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun nalle nostetaan takaisin istuma asentoon.
+
 ![Kytkentäkaavio - Varoitus kaatumisesta](ohjeet/varoitus_kaatumisesta_bb.jpg)
 
 [Lähdekoodi](varoitus_kaatumisesta/varoitus_kaatumisesta.ino)
