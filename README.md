@@ -19,32 +19,41 @@ Yhteisön sivuilta löytyy asennusohjeet eri käyttöjärjestelmille
 
 Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, joiden välissää on kahden sekunnin viive.
 
-![Kytkentäkaavio - Vilkutus](ohjeet/vilkutus_bb.jpg)
+**Kytkentäkaavio**
 
-[Lähdekoodi](vilkutus/vilkutus.ino)
+![Kytkentäkaavio - Vilkutus](ohjeet/vilkutus_bb.jpg "Kytkentäkaavio")
 
 *Video*
+
+**Lähdekoodi:** [vilkutus.ino](vilkutus/vilkutus.ino)
+
 
 ## Tassujen heilutus
 
 Nalle heiluttaa molempia tassujaan siten, että tassut ovat vastakkaisissa asennoissa. Molemmilla tassuilla on vain kaksi asentoa, joita vuorotellaan kahden sekunnin välein.
 
-![Kytkentäkaavio - Tassujen heilutus](ohjeet/tassujen_heilutus_bb.jpg)
+**Kytkentäkaavio**
 
-[Lähdekoodi](tassujen_heilutus/tassujen_heilutus.ino)
+![Kytkentäkaavio - Tassujen heilutus](ohjeet/tassujen_heilutus_bb.jpg "Kytkentäkaavio")
+
+**Lähdekoodi:** [tassujen_heilutus.ino](tassujen_heilutus/tassujen_heilutus.ino)
 
 ## Tassujen heilutus tahdissa
 
 Nalle heiluttaa molempia tassuja painonapin tahdissa. Molemmilla tassuilla on kaksi asentoa ja ne ovat aina vastakkaisissa asennoissa. Asentoa vaihdetaan aina kuin nappia painetaan.
 
-![Kytkentäkaavio - Tassujen heilutus tahdissa](ohjeet/tassujen_heilutus_tahdissa_bb.jpg)
+**Kytkentäkaavio**
 
-[Lähdekoodi](tassujen_heilutus_tahdissa/tassujen_heilutus_tahdissa.ino)
+![Kytkentäkaavio - Tassujen heilutus tahdissa](ohjeet/tassujen_heilutus_tahdissa_bb.jpg "Kytkentäkaavio")
+
+**Lähdekoodi:** [tassujen_heilutus_tahdissa.ino](tassujen_heilutus_tahdissa/tassujen_heilutus_tahdissa.ino)
 
 ## Varoitus kaatumisesta
 
 Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun nalle nostetaan takaisin istuma asentoon.
 
-![Kytkentäkaavio - Varoitus kaatumisesta](ohjeet/varoitus_kaatumisesta_bb.jpg)
+**Kytkentäkaavio**
 
-[Lähdekoodi](varoitus_kaatumisesta/varoitus_kaatumisesta.ino)
+![Kytkentäkaavio - Varoitus kaatumisesta](ohjeet/varoitus_kaatumisesta_bb.jpg "Kytkentäkaavio")
+
+**Lähdekoodi:** [varoitus_kaatumisesta.ino](varoitus_kaatumisesta/varoitus_kaatumisesta.ino)
