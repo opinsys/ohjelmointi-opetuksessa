@@ -25,12 +25,17 @@ Yhteisön sivuilta löytyy asennusohjeet eri käyttöjärjestelmille
 
 #### Tassujen heilutus
 
+![Kytkentäkaavio - Tassujen heilutus](ohjeet/tassujen_heilutus_bb.jpg)
+
+[Lähdekoodi](tassujen_heilutus/tassujen_heilutus.ino)
+
 #### Tassujen heilutus tahdissa
 
-*Painonapilla*
+![Kytkentäkaavio - Tassujen heilutus tahdissa](ohjeet/tassujen_heilutus_tahdissa_bb.jpg)
 
-*Äänisensorilla*
+[Lähdekoodi](tassujen_heilutus_tahdissa/tassujen_heilutus_tahdissa.ino)
 
 #### Varoitus kaatumisesta
+![Kytkentäkaavio - Varoitus kaatumisesta](ohjeet/varoitus_kaatumisesta_bb.jpg)
 
-#### Vilkutus
+[Lähdekoodi](varoitus_kaatumisesta/varoitus_kaatumisesta.ino)
