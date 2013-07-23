@@ -19,6 +19,9 @@ Yhteisön sivuilta löytyy asennusohjeet eri käyttöjärjestelmille
 
 Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, joiden välissää on kahden sekunnin viive.
 
+**Komponentit**
+* Servo: DFRobot SER0006
+
 **Kytkentäkaavio**
 
 ![Kytkentäkaavio - Vilkutus](ohjeet/vilkutus_bb.jpg "Kytkentäkaavio")
@@ -32,6 +35,9 @@ Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, j
 
 Nalle heiluttaa molempia tassujaan siten, että tassut ovat vastakkaisissa asennoissa. Molemmilla tassuilla on vain kaksi asentoa, joita vuorotellaan kahden sekunnin välein.
 
+**Komponentit**
+* 2 x Servo: DFRobot SER0006
+
 **Kytkentäkaavio**
 
 ![Kytkentäkaavio - Tassujen heilutus](ohjeet/tassujen_heilutus_bb.jpg "Kytkentäkaavio")
@@ -42,6 +48,12 @@ Nalle heiluttaa molempia tassujaan siten, että tassut ovat vastakkaisissa asenn
 
 Nalle heiluttaa molempia tassuja painonapin tahdissa. Molemmilla tassuilla on kaksi asentoa ja ne ovat aina vastakkaisissa asennoissa. Asentoa vaihdetaan aina kuin nappia painetaan.
 
+**Komponentit**
+
+* 2 x Servo: DFRobot SER0006
+* Painonappi: Sparkfun COM00097
+* Vastus: 1k Ohm
+
 **Kytkentäkaavio**
 
 ![Kytkentäkaavio - Tassujen heilutus tahdissa](ohjeet/tassujen_heilutus_tahdissa_bb.jpg "Kytkentäkaavio")
@@ -51,6 +63,11 @@ Nalle heiluttaa molempia tassuja painonapin tahdissa. Molemmilla tassuilla on ka
 ## Varoitus kaatumisesta
 
 Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun nalle nostetaan takaisin istuma asentoon.
+
+**Komponentit**
+* Piezo kaiutin: Pololu POLO30mmPIEZO1260
+* 2 x vastis: 1k Ohm
+* Asentosensori: ActiveRBS 040100
 
 **Kytkentäkaavio**
 
