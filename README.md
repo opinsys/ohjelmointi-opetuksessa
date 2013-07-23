@@ -15,8 +15,22 @@ Yhteisön sivuilta löytyy asennusohjeet eri käyttöjärjestelmille
 
 ### Esimerkit
 
-#### Tassun heilutus
+#### Vilkutus
 
-*kytkentäkaavio*
+![Kytkentäkaavio - Vilkutus](ohjeet/vilkutus_bb.jpg)
 
-[Lähdekoodi](https://github.com/opinsys/ohjelmointi-opetuksessa/blob/master/tassun_heilutus/tassun_heilutus.ino)
+[Lähdekoodi](vilkutus/vilkutus.ino)
+
+*Video*
+
+#### Tassujen heilutus
+
+#### Tassujen heilutus tahdissa
+
+*Painonapilla*
+
+*Äänisensorilla*
+
+#### Varoitus kaatumisesta
+
+#### Vilkutus
