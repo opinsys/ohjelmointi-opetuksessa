@@ -1,6 +1,6 @@
 ## Nallen rakennusohje
 
-Löytyykö nurkistasi ylimääräisiä pehomoleluja? Tätä ohjetta voit soveltaa monenlaisiin pehmoleluihin. Riittttävän suuren koon lisäksi aino vaatimus on, että tassut ovat helposti liikuteltavissa. Esimerkin nalle löytyi kirpputorilta, joka tarjosikin hyvän valikoiman erillaisista pehmoleluista.
+Löytyykö nurkistasi ylimääräisiä pehomoleluja? Tätä ohjetta voit soveltaa monenlaisiin pehmoleluihin. Riittävän suuren koon lisäksi aino vaatimus on, että tassut ovat helposti liikuteltavissa. Esimerkin nalle löytyi kirpputorilta, joka tarjosikin hyvän valikoiman erillaisista pehmoleluista.
 
 Esimerkissä käytetyt tarvikkeet:
 * Nalle
@@ -9,7 +9,7 @@ Esimerkissä käytetyt tarvikkeet:
 * Rautalankaa, vavuus 0.5mm
 * Vetoketju
 * Neula ja lankaa
-* Popniitit
+* Popniittejä
 * Kaksi servoa (DFRobot SER0006)
 
 ![Nalle](kuvat/nalle_lahtotilanne.jpg)
