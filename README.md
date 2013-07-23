@@ -27,7 +27,7 @@ Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, j
 
 ## Tassujen heilutus
 
-Nalle heiluttaa molempia tassuja siten, että tassut ovat vastakkaisissa asennoissa. Molemmilla tassuilla on vain kaksi asentoa, joita vuorotellaan kahden sekunnin välein.
+Nalle heiluttaa molempia tassujaan siten, että tassut ovat vastakkaisissa asennoissa. Molemmilla tassuilla on vain kaksi asentoa, joita vuorotellaan kahden sekunnin välein.
 
 ![Kytkentäkaavio - Tassujen heilutus](ohjeet/tassujen_heilutus_bb.jpg)
 
