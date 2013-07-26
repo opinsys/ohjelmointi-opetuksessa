@@ -52,7 +52,7 @@ Nalle heiluttaa molempia tassuja painonapin tahdissa. Molemmilla tassuilla on ka
 
 * 2 x Servo: DFRobot SER0006
 * Painonappi: Sparkfun COM00097
-* Vastus: 1k Ohm
+* Vastus: 10k Ohm
 
 **Kytkentäkaavio**
 
@@ -66,7 +66,7 @@ Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun 
 
 **Komponentit**
 * Piezo kaiutin: Pololu POLO 30mm PIEZO 1260
-* 2 x vastus: 1k Ohm
+* 2 x vastus: 10k Ohm
 * Asentosensori: Active RBS 040100
 
 **Kytkentäkaavio**
