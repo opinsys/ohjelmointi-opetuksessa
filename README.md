@@ -74,3 +74,8 @@ Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun 
 ![Kytkentäkaavio - Varoitus kaatumisesta](kytkentakaaviot/varoitus_kaatumisesta_bb.jpg "Kytkentäkaavio")
 
 **Lähdekoodi:** [varoitus_kaatumisesta.ino](varoitus_kaatumisesta/varoitus_kaatumisesta.ino)
+
+## Linkkejä
+
+* [http://fritzing.org](http://fritzing.org) Avoimen lähdekoodin sovellus mm. kytkentäkaavioiden tekemiseen
+* 
