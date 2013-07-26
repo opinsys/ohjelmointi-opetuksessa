@@ -30,6 +30,21 @@ Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, j
 
 **Lähdekoodi:** [vilkutus.ino](vilkutus/vilkutus.ino)
 
+## Ohikulkijalle vilkutus
+
+Nalle vilkuttaa ohikulkijalle. Valovastuksen avulla tunnistetaan nallen edessä oleva liike ja tehdään tällöin tassulla vilkuttava liike.
+
+**Komponentit**
+* Servo: DFRobot SER0006
+* Valovastus: VT90N2 LDR
+* Vastus: 10k Ohm
+
+**Kytkentäkaavio**
+
+![Kytkentäkaavio - Ohikulkijalle vilkutus](kytkentakaaviot/ohikulkijalle_vilkutus_bb.jpg "Kytkentäkaavio")
+
+**Lähdekoodi:** [vilkutus.ino](ohikulkijalle_vilkutus/ohikulkijalle_vilkutus.ino)
+
 
 ## Tassujen heilutus
 
