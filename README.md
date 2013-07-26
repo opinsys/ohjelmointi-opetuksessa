@@ -17,7 +17,7 @@ Yhteisön sivuilta löytyy asennusohjeet eri käyttöjärjestelmille
 
 ## Vilkutus
 
-Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, joiden välissää on kahden sekunnin viive.
+Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, joiden välissää on kahden sekunnin tauko.
 
 **Komponentit**
 * Servo: DFRobot SER0006
