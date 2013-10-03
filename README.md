@@ -94,5 +94,5 @@ Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun 
 
 * [http://fritzing.org](http://fritzing.org) Avoimen lähdekoodin sovellus mm. kytkentäkaavioiden tekemiseen
 
-![Lisenssi - CC BY](ohjeet/cc_by.png "Lisenssi - CC BY")
+![Lisenssi - CC BY](ohjeet/kuvat/cc_by.png "Lisenssi - CC BY")
 
