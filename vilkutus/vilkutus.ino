@@ -9,8 +9,8 @@ void setup()
  
 void loop() 
 { 
-  tassu.write(90);
+  tassu.write(0);
   delay(2000);
-  tassu.write(180);
+  tassu.write(150);
   delay(2000);
 } 
