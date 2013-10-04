@@ -11,10 +11,10 @@ void setup()
  
 void loop() 
 { 
-  vasen_tassu.write(90);
+  vasen_tassu.write(20);
   oikea_tassu.write(0);
   delay(2000);
   vasen_tassu.write(180);
-  oikea_tassu.write(90);
+  oikea_tassu.write(160);
   delay(2000);
 } 
