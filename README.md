@@ -26,7 +26,8 @@ Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, j
 
 ![Kytkentäkaavio - Vilkutus](kytkentakaaviot/vilkutus_bb.jpg "Kytkentäkaavio")
 
-[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/ks9R499sEhE)
+[Video](http://www.youtube.com/watch?v=ks9R499sEhE)
+
 
 **Lähdekoodi:** [vilkutus.ino](vilkutus/vilkutus.ino)
 
@@ -58,6 +59,8 @@ Nalle heiluttaa molempia tassujaan siten, että tassut ovat vastakkaisissa asenn
 ![Kytkentäkaavio - Tassujen heilutus](kytkentakaaviot/tassujen_heilutus_bb.jpg "Kytkentäkaavio")
 
 **Lähdekoodi:** [tassujen_heilutus.ino](tassujen_heilutus/tassujen_heilutus.ino)
+
+[Video](http://www.youtube.com/watch?v=iwdxCTvZie8)
 
 ## Tassujen heilutus tahdissa
 
