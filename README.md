@@ -27,6 +27,7 @@ Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, j
 ![Kytkentäkaavio - Vilkutus](kytkentakaaviot/vilkutus_bb.jpg "Kytkentäkaavio")
 
 [Video](http://www.youtube.com/watch?v=ks9R499sEhE)
+YT("ks9R499sEhE", print = TRUE)
 
 
 **Lähdekoodi:** [vilkutus.ino](vilkutus/vilkutus.ino)
