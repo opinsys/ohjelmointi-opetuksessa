@@ -59,7 +59,7 @@ Nalle heiluttaa molempia tassujaan siten, että tassut ovat vastakkaisissa asenn
 
 **Lähdekoodi:** [tassujen_heilutus.ino](tassujen_heilutus/tassujen_heilutus.ino)
 
-[Video](http://www.youtube.com/watch?v=iwdxCTvZie8)
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=iwdxCTvZie8)
 
 ## Tassujen heilutus tahdissa
 
