@@ -26,10 +26,7 @@ Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, j
 
 ![Kytkentäkaavio - Vilkutus](kytkentakaaviot/vilkutus_bb.jpg "Kytkentäkaavio")
 
-[Video](http://www.youtube.com/watch?v=ks9R499sEhE)
-YT("ks9R499sEhE", print = TRUE)
-
-[[youtube-{ks9R499sEhE}-{480}x{640}]]
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=ks9R499sEhE)
 
 **Lähdekoodi:** [vilkutus.ino](vilkutus/vilkutus.ino)
 
