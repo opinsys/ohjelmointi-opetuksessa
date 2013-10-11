@@ -26,9 +26,9 @@ Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, j
 
 ![Kytkentäkaavio - Vilkutus](kytkentakaaviot/vilkutus_bb.jpg "Kytkentäkaavio")
 
-[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=ks9R499sEhE)
-
 **Lähdekoodi:** [vilkutus.ino](vilkutus/vilkutus.ino)
+
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=ks9R499sEhE)
 
 ## Ohikulkijalle vilkutus
 
