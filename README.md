@@ -4,7 +4,7 @@ Materiaalia ohjelmoinnin opetukseen peruskouluissa ja lukioissa.
 
 Käytettävien työkalujen keskeisenä osana on [Arduino](http://http://www.arduino.cc/), joka koostuu mikrokontrollerista ja ohjelmointiympäristöstä. Esimerkkien testaamisessa on ollut käytössä [Arduino Uno](http://arduino.cc/en/Main/ArduinoBoardUno)
 
-Havainnollistamisessa on käytetty nallea, joka on hyvin perinteinen pehmolelu. Esimerkkejä voi toki hyödyntää muidenkin pehmolelujen kanssa. Opinsysiltä on saatavissa nalle valmiiksi paketoituna rakennussarjana tai käyttövalmiina tuotteena. [Nallen rakennusohje](ohjeet/nallen_rakennus.md).
+Havainnollistamisessa on käytetty nallea, joka on hyvin perinteinen pehmolelu. Esimerkkejä voi toki hyödyntää muidenkin pehmolelujen kanssa. Opinsysiltä on saatavissa nalle valmiiksi paketoituna [rakennussarjana tai käyttövalmiina tuotteena](http://www.opinsys.fi/nalle). [Nallen rakennusohje](ohjeet/nallen_rakennus.md).
 
 ## Arduino-ympäristön asennus
 
