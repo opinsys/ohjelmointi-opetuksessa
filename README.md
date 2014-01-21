@@ -61,22 +61,6 @@ Nalle heiluttaa molempia tassujaan siten, että tassut ovat vastakkaisissa asenn
 
 [![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=iwdxCTvZie8)
 
-## Tassujen heilutus tahdissa
-
-Nalle heiluttaa molempia tassuja painonapin tahdissa. Molemmilla tassuilla on kaksi asentoa ja ne ovat aina vastakkaisissa asennoissa. Asentoa vaihdetaan aina kuin nappia painetaan.
-
-**Komponentit**
-
-* 2 x Servo: DFRobot SER0006
-* Painonappi: Sparkfun COM00097
-* Vastus: 10k Ohm
-
-**Kytkentäkaavio**
-
-![Kytkentäkaavio - Tassujen heilutus tahdissa](kytkentakaaviot/tassujen_heilutus_tahdissa_bb.jpg "Kytkentäkaavio")
-
-**Lähdekoodi:** [tassujen_heilutus_tahdissa.ino](tassujen_heilutus_tahdissa/tassujen_heilutus_tahdissa.ino)
-
 ## Varoitus kaatumisesta
 
 Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun nalle nostetaan takaisin istuma asentoon.
