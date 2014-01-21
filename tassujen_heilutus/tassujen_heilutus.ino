@@ -6,7 +6,7 @@ Servo oikea_tassu;
 void setup() 
 { 
   vasen_tassu.attach(6);
-  oikea_tassu.attach(9);
+  oikea_tassu.attach(3);
 } 
  
 void loop() 
