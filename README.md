@@ -6,7 +6,7 @@ Käytettävien työkalujen keskeisenä osana on [Arduino](http://http://www.ardu
 
 Havainnollistamisessa on käytetty nallea, joka on hyvin perinteinen pehmolelu. Esimerkkejä voi toki hyödyntää muidenkin pehmolelujen kanssa. Opinsysiltä on saatavissa nalle valmiiksi paketoituna rakennussarjana tai käyttövalmiina tuotteena. [Nallen rakennusohje](ohjeet/nallen_rakennus.md).
 
-### Arduino-ympäristön asennus
+## Arduino-ympäristön asennus
 
 Opinsys:n palvelun piiriin kuuluvilla laitteilla ympäristö on valmiiksi asennettuna.
 
@@ -14,6 +14,8 @@ Yhteisön sivuilta löytyy asennusohjeet eri käyttöjärjestelmille
 * [Windows](http://arduino.cc/en/Guide/Windows)
 * [Mac OS X](http://arduino.cc/en/Guide/MacOSX)
 * [Linux](http://www.arduino.cc/playground/Learning/Linux)
+
+## Esimerkit
 
 **Kytkentäkaavio**
 
