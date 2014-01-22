@@ -2,12 +2,12 @@ int asentokytkin = 0;
 
 void setup() 
 {
-  pinMode(10, INPUT);
+  pinMode(8, INPUT);
 }
 
 void loop() 
 {
-  asentokytkin = digitalRead(10);
+  asentokytkin = digitalRead(8);
   
   delay(100);
   
