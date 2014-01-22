@@ -4,7 +4,7 @@ Servo tassu;
  
 void setup() 
 { 
-  tassu.attach(6);
+  tassu.attach(4);
 } 
  
 void loop() 
