@@ -2,7 +2,7 @@
 
 ## Opinsys-nalle rakennusohje
 
-Lisätietoja rakennussarjasta ja sen hankkimisesta: [http://www.opinsys.fi](http://www.opinsys.fi)
+Lisätietoja rakennussarjasta ja sen hankkimisesta: [http://www.opinsys.fi/nalle](http://www.opinsys.fi/nalle)
 
 [Rakennussarjan pakkausseloste](ohjeet/pakkausseloste)
 
