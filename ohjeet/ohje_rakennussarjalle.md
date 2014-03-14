@@ -14,9 +14,9 @@ Tarvitset sivuleikkurit. Kärkipihdeistä on apua johdotuksessa, mutta ne eivät
 
 Arduino kiinnitetään vanerilevyyn kolmen ruuvin avulla.
 
-![Arduinon kiinnitys](kuvat/arvuinon_kiinnitys_ruuveilla.jpg)
+![Arduinon kiinnitys](kuvat/arduinon_kiinnitys_ruuveilla.jpg)
 
-Koekytkentälevy kiinnitetään vanerin toiseenpäähän tarran avulla.
+Koekytkentälevy kiinnitetään vanerin toiseen päähän tarran avulla.
 
 ![Koekytkentälevyn kiinnitys](kuvat/koekytkentalevyn_kiinnitys.jpg)
 
@@ -28,11 +28,11 @@ Kytketään jännite koekytkentälevyyn. Tämä saadaan aikaiseksi kytkemällä 
 
 #### Servot
 
-![Servo](kuvat/servo.jpg)
+![Servo](kuvat/servo.jpg) # FIXME
 
 Servot tarvitsevat jännitteen lisäksi Arduinolta tulevan ohjauksen. Servojen liittimet eivät käy suoraan koekytkentälevyyn, joten kytkentää varten pitää asentaa piikkirimat (f-1,2,3 ja f-4,5,6).  + ja – saadaan kätevästi oikeasta laidasta lyhyillä hyppylangoilla (j-2, j-3, j-5, j-6). Lopuksi Arduinon pinneistä 2 ja 4 asennetaan johto servojen ohjausjohdon kohdalle (i-4 ja h-1). Servojen liittimet voidaan kytkeä molemmin päin, joten huomio tämä tehdessäsi lopullista asennusta. Servon liittimessä punainen on +, musta on – ja keltainen on ohjaus.
 
-![Kytkentä, servot](kuvat/kytkenta_servot.jpg)
+![Kytkentä, servot](kuvat/kytkenta_servot.jpg) # FIXME
 
 *Kytkennän testaus*
 
@@ -44,7 +44,7 @@ Kytke Arduino USB-kaapelilla tietokoneeseen ja lataa siihen ohjelma [Tassujen he
 
 Taivuta asentosensorin jalat kuvan mukaisesti, jolloin koekytkentälevylle (h-14, i-13) asentaminen onnistuu helposti. Toiselle jaloista kytketään + (j-14). – kytketään toiseen jalkaan (j-13) vastuksen kautta. Asentokytkimen tila luetaan Arduinon pinnistä 8, joten tämä kytketään samaaan jalkaan kuin vastus (g-13).
 
-![Kytkentä, asentokytkin](kuvat/kytkenta_asentokytkin.jpg)
+![Kytkentä, asentokytkin](kuvat/kytkenta_asentokytkin.jpg) # FIXME
 
 *Kytkennän testaus*
 
@@ -52,23 +52,27 @@ Testaus suoritetaan kaiuttimen asennuksen jälkeen.
 
 ### Kaiutin
 
-![Kaiutin](kuvat/kaiutin.jpg)
+![Kaiutin](kuvat/kaiutin.jpg) # FIXME
 
 Kaiuttimen toiseen jalkaan kytketään ohjaus (g-22) Arduinon pinnistä 12 ja toiseen jalkaan – lyhyellä hyppylangalla (j-26).
 
-![Kytkentä, kaiutin](kuvat/kytkenta_kaiutin.jpg)
+![Kytkentä, kaiutin](kuvat/kytkenta_kaiutin.jpg) # FIXME
 
 *Kytkennän testaus*
 
 Testataan asentokytkimen ja kaiuttimen toiminta yhtäaikaa. Lataa Arduinoon ohjelma [varoitus kaatumisesta](varoitus_kaatumisesta/varoitus_kaatumisesta.ino). Kun kytkentä on normaalisti pöydällä pitäisi kuulua sireeniä muistuttava ääni. Kun nostat kytkentäkokonaisuuden ylös ja käännät sen siten, että asentokytkin on pystysuunnassa, niin sireenin ääni lakkaa.
 
-![Asentokytkimen ja kaiuttimen testaus](kuvat/asentokytkin_kaiutin_testaus.jpg)
+![Asentokytkimen ja kaiuttimen testaus](kuvat/asentokytkin_kaiutin_testaus.jpg) # FIXME
 
 ### Valovastus
+
+![Valovastus](kuvat/valovastus.jpg)
 
 FIXME: tarvitaan suoraan koekytkentälevylle tehty kytkentä, sekä lopullinen kytkentä
 
 Valovastuksen jalkoihin kytketään jännite siten, että – tulee vastuksen kautta. Valovastuksen arvo luetaan Arduinon pinnistä A0 ja näin ollen se kytketään vastuksen puoleiseen jalkaan (c-14). Aluksi valovastus kannattaa kytkeä suoraan koekytkentälevyyn, mutta lopullisessa asennuksessa kytkentään käytetään erillisiä johtimia.
+
+![Kytkentä, valovastus](kuvat/kytkenta_valovastus.jpg) # FIXME
 
 *Kytkennän testaus*
 
@@ -84,8 +88,6 @@ Nallen selässä on tarrakiinnitys, jonka avaamalla päästään nallen sisälle
 
 Ensimmäiseksi nallen sisälle täytyy tehdä tilaa komponenteille, jote täytettä otetaan reilusti pois.
 
-![Nallen tyhjennys](kuvat/nallen_tyhjennys.jpg)
-
 #### Valovastus
 
 Ensimmäisenä komponenttina kannattaa asentaa valovastus, koska myöhemmässä vaiheessa sen asentaminen on hankalaa. Hyvä paikka valovastukselle on nallen maha siten, että valovastuksen jalkojen väliin jää ompelesauma. Näin valovastuksen jalat eivät joudu helposti kosketuksiin nallen sisällä.
@@ -94,7 +96,7 @@ Ensimmäisenä komponenttina kannattaa asentaa valovastus, koska myöhemmässä 
 
 Valovastusten kytkemiseen rakennussarjassa on kaksi  n. 25cm mittaista naaras-uros kytkentäjohdinta. Valovastuksen jalat ovat liian ohuet kytkettäväksi suoraan ko. johtimeen, joten jalkoja on taivutettava esim. kärkipihdeillä. Tämän jälkeen kytkentäjohtojen naaraspuoli voidaan kytkeä valovastuksen jalkoihin.
 
-![Valovastuksen kytkentä](kuvat/valovastuksen_kytkenta.jpg)
+![Valovastuksen kytkentä](kuvat/valovastuksen_kytkenta.jpg) # FIXME
 
 #### Servot
 
@@ -112,11 +114,11 @@ Ujuta rautalangan taivutettu pää servon lavan reiästä.
 
 Tämän jälkeen kiinnitä sidoslangan avulla rautalanka tiukasti lapaan kiinni
 
-![Rautalanka](kuvat/rautalangan_sitominen.jpg)
+![Rautalanka](kuvat/rautalangan_sitominen.jpg) # FIXME
 
 Lopuksi löysytä lavan ruuvia ja poista turhat välykset, jolloin rautalanka pysyy napakasti lavassa kiinni.
 
-![Rautalanka](kuvat/rautalanka_lavan_valysten_poisto.jpg)
+![Rautalanka](kuvat/rautalanka_lavan_valysten_poisto.jpg) # FIXME
 
 Servot asennetaan nallen sisään vanerilevyn avulla. Asenna nippusiteet valmiiksi vanerilevyn reikiin. Tämän jälkeen laita levy nallen sisään selässä olevan reiän kautta. Nippusiteiden kohdalle tulee servot, joten niiden pitää olla tassujen kohdalla.
 
@@ -134,11 +136,9 @@ USB-kaapeliin kannattaa tehdä nippusiteen avulla pieni lenkki, jolloin Arduinon
 
 Kytkentäkokonaisuus (Arduino, koekytkentälevy, usb-kaapeli) kannattaa asentaa nalleen siten, että koekytkentälevy jää lähimmäksi selässä olevaa aukkoa. Näin johtojen kytkeminen onnistuu helpommin.
 
-![Arduinon asennus nallen sisään](kuvat/arduinon_asennus_nallen_sisaan.jpg)
-
 Lopuksi kiinnitetään vapaana olevat johdot kytkentään ja suljetaan nalle.
 
-![Johtimien kiinnitys](kuvat/johtimien_kiinnitys.jpg)
+![Arduinon asennus nallen sisään](kuvat/arduinon_asennus_nallen_sisaan.jpg)
 
 Nalle on valmis!
 
