@@ -100,7 +100,7 @@ Valovastusten kytkemiseen rakennussarjassa on kaksi  n. 25cm mittaista naaras-ur
 
 #### Servot
 
-# FIXME: vaihda servoihin oikea lapa valmiiksi
+FIXME: vaihda servoihin oikea lapa valmiiksi
 
 Servojen lapoja on jatkettava, jotta niitä voidaan käyttää tassujen heiluttamiseen. Tähän käytetään rautalangan pätkiä (n. 15cm), jotka tulevat rakennussarjan mukana.
 
