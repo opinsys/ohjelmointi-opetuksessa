@@ -1,3 +1,5 @@
+<font color='red'>Tämä dokumenttin on keskeneräinen</font>
+
 ## Opinsys-nalle rakennusohje
 
 Lisätietoja rakennussarjasta ja sen hankkimisesta: [http://www.opinsys.fi](http://www.opinsys.fi)
