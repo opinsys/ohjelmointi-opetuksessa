@@ -12,8 +12,13 @@ Tarvitset sivuleikkurit. Kärkipihdeistä on apua johdotuksessa, mutta ne eivät
 
 ### Valmistelevat toimenpiteet
 
-* Arduinon kiinnitys taustalevyyn
-* Koekytkentälevyn kiinnitys taustalevyyn
+Arduino kiinnitetään vanerilevyyn kolmen ruuvin avulla.
+
+[Arduinon kiinnitys](kuvat/arvuinon_kiinnitys_ruuveilla.jpg)
+
+Koekytkentälevy kiinnitetään vanerin toiseenpäähän tarran avulla.
+
+[Koekytkentälevyn kiinnitys](kuvat/koekytkentalevyn_kiinnitys.jpg)
 
 ### Kytkentöjen tekeminen
 
