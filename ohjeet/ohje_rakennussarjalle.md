@@ -8,7 +8,7 @@ Lisätietoja rakennussarjasta ja sen hankkimisesta: [http://www.opinsys.fi/nalle
 
 ### Työkalut
 
-Tarvitset sivuleikkurit. Kärkipihdeistä on apua johdotuksessa, mutta ne eivät ole välttämättömät.
+Tarvitset sivuleikkurit, kärkipihdit ja pienen ruuvimeisselin.
 
 ### Valmistelevat toimenpiteet
 
@@ -70,7 +70,7 @@ Testataan asentokytkimen ja kaiuttimen toiminta yhtäaikaa. Lataa Arduinoon ohje
 
 FIXME: tarvitaan suoraan koekytkentälevylle tehty kytkentä, sekä lopullinen kytkentä
 
-Valovastuksen jalkoihin kytketään jännite siten, että – tulee vastuksen kautta. Valovastuksen arvo luetaan Arduinon pinnistä A0 ja näin ollen se kytketään vastuksen puoleiseen jalkaan (c-14). Aluksi valovastus kannattaa kytkeä suoraan koekytkentälevyyn, mutta lopullisessa asennuksessa kytkentään käytetään erillisiä johtimia.
+Valovastuksen jalkoihin kytketään jännite siten, että – tulee vastuksen kautta. Valovastuksen arvo luetaan Arduinon pinnistä A0 ja näin ollen se kytketään vastuksen puoleiseen jalkaan (c-14). Aluksi valovastus kannattaa kytkeä suoraan koekytkentälevyyn, mutta lopullisessa asennuksessa kytkentään käytetään erillisiä johtimia. Älä lyhennä tässä vaiheessa valovastuksen jalkoja, koska ne tarvitaan täysipitkinä lopullisessa asennuksessa.
 
 ![Kytkentä, valovastus](kuvat/kytkenta_valovastus.jpg) # FIXME
 
@@ -86,7 +86,7 @@ Nallen selässä on tarrakiinnitys, jonka avaamalla päästään nallen sisälle
 
 ![Nallen avaus](kuvat/nalle_auki.jpg)
 
-Ensimmäiseksi nallen sisälle täytyy tehdä tilaa komponenteille, jote täytettä otetaan reilusti pois.
+Ensimmäiseksi nallen sisälle täytyy tehdä tilaa komponenteille, jote täytettä otetaan reilusti pois. Ota täyte talteen, koska tarvitset sitä myöhemmässä vaiheessa.
 
 #### Valovastus
 
@@ -117,8 +117,6 @@ Tämän jälkeen kiinnitä sidoslangan avulla rautalanka tiukasti lapaan kiinni
 ![Rautalanka](kuvat/rautalangan_sitominen.jpg) # FIXME
 
 Lopuksi löysytä lavan ruuvia ja poista turhat välykset, jolloin rautalanka pysyy napakasti lavassa kiinni.
-
-![Rautalanka](kuvat/rautalanka_lavan_valysten_poisto.jpg) # FIXME
 
 Servot asennetaan nallen sisään vanerilevyn avulla. Asenna nippusiteet valmiiksi vanerilevyn reikiin. Tämän jälkeen laita levy nallen sisään selässä olevan reiän kautta. Nippusiteiden kohdalle tulee servot, joten niiden pitää olla tassujen kohdalla.
 
