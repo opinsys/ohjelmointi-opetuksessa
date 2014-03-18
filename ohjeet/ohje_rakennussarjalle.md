@@ -28,11 +28,11 @@ Kytketään jännite koekytkentälevyyn. Tämä saadaan aikaiseksi kytkemällä 
 
 #### Servot
 
-![Servo](kuvat/servo.jpg) # FIXME
+![Servo](kuvat/servo.jpg)
 
 Servot tarvitsevat jännitteen lisäksi Arduinolta tulevan ohjauksen. Servojen liittimet eivät käy suoraan koekytkentälevyyn, joten kytkentää varten pitää asentaa piikkirimat (f-1,2,3 ja f-4,5,6).  + ja – saadaan kätevästi oikeasta laidasta lyhyillä hyppylangoilla (j-2, j-3, j-5, j-6). Lopuksi Arduinon pinneistä 2 ja 4 asennetaan johto servojen ohjausjohdon kohdalle (i-4 ja h-1). Servojen liittimet voidaan kytkeä molemmin päin, joten huomio tämä tehdessäsi lopullista asennusta. Servon liittimessä punainen on +, musta on – ja keltainen on ohjaus.
 
-![Kytkentä, servot](kuvat/kytkenta_servot.jpg) # FIXME
+![Kytkentä, servot](kuvat/kytkenta_servot.jpg)
 
 *Kytkennän testaus*
 
@@ -44,7 +44,7 @@ Kytke Arduino USB-kaapelilla tietokoneeseen ja lataa siihen ohjelma [Tassujen he
 
 Taivuta asentosensorin jalat kuvan mukaisesti, jolloin koekytkentälevylle (h-14, i-13) asentaminen onnistuu helposti. Toiselle jaloista kytketään + (j-14). – kytketään toiseen jalkaan (j-13) vastuksen kautta. Asentokytkimen tila luetaan Arduinon pinnistä 8, joten tämä kytketään samaaan jalkaan kuin vastus (g-13).
 
-![Kytkentä, asentokytkin](kuvat/kytkenta_asentokytkin.jpg) # FIXME
+![Kytkentä, asentokytkin](kuvat/kytkenta_asentokytkin.jpg)
 
 *Kytkennän testaus*
 
@@ -52,35 +52,31 @@ Testaus suoritetaan kaiuttimen asennuksen jälkeen.
 
 ### Kaiutin
 
-![Kaiutin](kuvat/kaiutin.jpg) # FIXME
+![Kaiutin](kuvat/kaiutin.jpg)
 
 Kaiuttimen toiseen jalkaan kytketään ohjaus (g-22) Arduinon pinnistä 12 ja toiseen jalkaan – lyhyellä hyppylangalla (j-26).
 
-![Kytkentä, kaiutin](kuvat/kytkenta_kaiutin.jpg) # FIXME
+![Kytkentä, kaiutin](kuvat/kytkenta_kaiutin.jpg)
 
 *Kytkennän testaus*
 
 Testataan asentokytkimen ja kaiuttimen toiminta yhtäaikaa. Lataa Arduinoon ohjelma [varoitus kaatumisesta](varoitus_kaatumisesta/varoitus_kaatumisesta.ino). Kun kytkentä on normaalisti pöydällä pitäisi kuulua sireeniä muistuttava ääni. Kun nostat kytkentäkokonaisuuden ylös ja käännät sen siten, että asentokytkin on pystysuunnassa, niin sireenin ääni lakkaa.
 
-![Asentokytkimen ja kaiuttimen testaus](kuvat/asentokytkin_kaiutin_testaus.jpg) # FIXME
+![Asentokytkimen ja kaiuttimen testaus](kuvat/asentokytkin_kaiutin_testaus.jpg)
 
 ### Valovastus
 
 ![Valovastus](kuvat/valovastus.jpg)
 
-FIXME: tarvitaan suoraan koekytkentälevylle tehty kytkentä, sekä lopullinen kytkentä
+Valovastuksen jalkoihin kytketään jännite siten, että – tulee vastuksen kautta. Valovastuksen arvo luetaan Arduinon pinnistä A0 ja näin ollen se kytketään vastuksen puoleiseen jalkaan (c-14). Aluksi valovastus kannattaa kytkeä suoraan koekytkentälevyyn, mutta lopullisessa asennuksessa kytkentään käytetään erillisiä johtimia. Älä lyhennä tässä vaiheessa valovastuksen jalkoja, koska ne tarvitaan täyspitkinä lopullisessa asennuksessa.
 
-Valovastuksen jalkoihin kytketään jännite siten, että – tulee vastuksen kautta. Valovastuksen arvo luetaan Arduinon pinnistä A0 ja näin ollen se kytketään vastuksen puoleiseen jalkaan (c-14). Aluksi valovastus kannattaa kytkeä suoraan koekytkentälevyyn, mutta lopullisessa asennuksessa kytkentään käytetään erillisiä johtimia. Älä lyhennä tässä vaiheessa valovastuksen jalkoja, koska ne tarvitaan täysipitkinä lopullisessa asennuksessa.
-
-![Kytkentä, valovastus](kuvat/kytkenta_valovastus.jpg) # FIXME
+![Kytkentä, valovastus](kuvat/kytkenta_valovastus.jpg)
 
 *Kytkennän testaus*
 
 Lataa Arduinoon ohjelma [ohikulkijalle vilkutus](ohikulkijalle_vilkutus/ohikulkijalle_vilkutus.ino). Ensimmäisen viiden sekunnin aikana ohjelma kalibroi valovastuksen valitsevaan valon määrään. Kun tämän jälkeen peität valovastuksen siten, että siihen pääsee vähemmän valoa, toisen servon moottorin pitäisi liikkua. Kun lopetata valovastuksen peittämisen, moottorin pitäisi sammua.
 
 ### Komponenttien asennus nallen sisään
-
-FIXME: poista nallesta nippuside valmiiksi
 
 Nallen selässä on tarrakiinnitys, jonka avaamalla päästään nallen sisälle.
 
@@ -96,11 +92,9 @@ Ensimmäisenä komponenttina kannattaa asentaa valovastus, koska myöhemmässä 
 
 Valovastusten kytkemiseen rakennussarjassa on kaksi  n. 25cm mittaista naaras-uros kytkentäjohdinta. Valovastuksen jalat ovat liian ohuet kytkettäväksi suoraan ko. johtimeen, joten jalkoja on taivutettava esim. kärkipihdeillä. Tämän jälkeen kytkentäjohtojen naaraspuoli voidaan kytkeä valovastuksen jalkoihin.
 
-![Valovastuksen kytkentä](kuvat/valovastuksen_kytkenta.jpg) # FIXME
+![Valovastuksen kytkentä](kuvat/valovastuksen_kytkenta.jpg)
 
 #### Servot
-
-FIXME: vaihda servoihin oikea lapa valmiiksi
 
 Servojen lapoja on jatkettava, jotta niitä voidaan käyttää tassujen heiluttamiseen. Tähän käytetään rautalangan pätkiä (n. 15cm), jotka tulevat rakennussarjan mukana.
 
@@ -114,7 +108,7 @@ Ujuta rautalangan taivutettu pää servon lavan reiästä.
 
 Tämän jälkeen kiinnitä sidoslangan avulla rautalanka tiukasti lapaan kiinni
 
-![Rautalanka](kuvat/rautalangan_sitominen.jpg) # FIXME
+![Rautalanka](kuvat/rautalangan_sitominen.jpg)
 
 Lopuksi löysytä lavan ruuvia ja poista turhat välykset, jolloin rautalanka pysyy napakasti lavassa kiinni.
 
