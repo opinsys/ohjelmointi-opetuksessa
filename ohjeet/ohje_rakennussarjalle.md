@@ -20,6 +20,10 @@ Koekytkentälevy kiinnitetään vanerin toiseen päähän tarran avulla.
 
 ### Kytkentöjen tekeminen
 
+**Kytkentäkaavio**
+
+![Kytkentäkaavio](/kytkentakaaviot/nalle_rakennussarja_bb.jpg)
+
 Kytketään jännite koekytkentälevyyn. Tämä saadaan aikaiseksi kytkemällä Arduinon 5V-ulostulo koekytkentälevyn punaisella merkittyyn + pinniin ja GND koekytkentälevyn – pinniin (musta). Lisäksi kytkentöjen helpottamiseksi koekytkentälevyn pystysuuntaiset + ja – linjat yhdistetään. Komponentit kytketään näiden väliin jääviin pinneihin, jotka jotka ovat yhteydessä toisiinsa päinvastaisessa suunnassa kuin + ja – pinnit.
 
 ![Kytkentä](kuvat/kytkenta_plus_miinus.jpg)
