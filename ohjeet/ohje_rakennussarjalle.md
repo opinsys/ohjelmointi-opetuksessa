@@ -4,8 +4,6 @@
 
 Lisätietoja rakennussarjasta ja sen hankkimisesta: [http://www.opinsys.fi/nalle](http://www.opinsys.fi/nalle)
 
-[Rakennussarjan pakkausseloste](pakkausseloste)
-
 ### Työkalut
 
 Tarvitset sivuleikkurit, kärkipihdit ja pienen ruuvimeisselin.
