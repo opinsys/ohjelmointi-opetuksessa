@@ -34,7 +34,7 @@ Servot tarvitsevat jännitteen lisäksi Arduinolta tulevan ohjauksen. Servojen l
 
 ![Kytkentä, servot](kuvat/kytkenta_servot.jpg)
 
-*Kytkennän testaus*
+**Kytkennän testaus**
 
 Kytke Arduino USB-kaapelilla tietokoneeseen ja lataa siihen ohjelma [Tassujen heilutus](tassujen_heilutus/tassujen_heilutus.ino). Kun molemmat servot on kytketty oikein, niiden pitäisi pyörittää moottoria vuorotellen.
 
@@ -46,7 +46,7 @@ Taivuta asentosensorin jalat kuvan mukaisesti, jolloin koekytkentälevylle (h-14
 
 ![Kytkentä, asentokytkin](kuvat/kytkenta_asentokytkin.jpg)
 
-*Kytkennän testaus*
+**Kytkennän testaus**
 
 Testaus suoritetaan kaiuttimen asennuksen jälkeen.
 
@@ -58,7 +58,7 @@ Kaiuttimen toiseen jalkaan kytketään ohjaus (g-22) Arduinon pinnistä 12 ja to
 
 ![Kytkentä, kaiutin](kuvat/kytkenta_kaiutin.jpg)
 
-*Kytkennän testaus*
+**Kytkennän testaus**
 
 Testataan asentokytkimen ja kaiuttimen toiminta yhtäaikaa. Lataa Arduinoon ohjelma [varoitus kaatumisesta](varoitus_kaatumisesta/varoitus_kaatumisesta.ino). Kun kytkentä on normaalisti pöydällä pitäisi kuulua sireeniä muistuttava ääni. Kun nostat kytkentäkokonaisuuden ylös ja käännät sen siten, että asentokytkin on pystysuunnassa, niin sireenin ääni lakkaa.
 
@@ -72,7 +72,7 @@ Valovastuksen jalkoihin kytketään jännite siten, että – tulee vastuksen ka
 
 ![Kytkentä, valovastus](kuvat/kytkenta_valovastus.jpg)
 
-*Kytkennän testaus*
+**Kytkennän testaus**
 
 Lataa Arduinoon ohjelma [ohikulkijalle vilkutus](ohikulkijalle_vilkutus/ohikulkijalle_vilkutus.ino). Ensimmäisen viiden sekunnin aikana ohjelma kalibroi valovastuksen valitsevaan valon määrään. Kun tämän jälkeen peität valovastuksen siten, että siihen pääsee vähemmän valoa, toisen servon moottorin pitäisi liikkua. Kun lopetata valovastuksen peittämisen, moottorin pitäisi sammua.
 
