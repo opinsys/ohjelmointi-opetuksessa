@@ -4,7 +4,7 @@
 
 Lisätietoja rakennussarjasta ja sen hankkimisesta: [http://www.opinsys.fi/nalle](http://www.opinsys.fi/nalle)
 
-[Rakennussarjan pakkausseloste](ohjeet/pakkausseloste)
+[Rakennussarjan pakkausseloste](pakkausseloste)
 
 ### Työkalut
 
@@ -36,7 +36,7 @@ Servot tarvitsevat jännitteen lisäksi Arduinolta tulevan ohjauksen. Servojen l
 
 **Kytkennän testaus**
 
-Kytke Arduino USB-kaapelilla tietokoneeseen ja lataa siihen ohjelma [Tassujen heilutus](tassujen_heilutus/tassujen_heilutus.ino). Kun molemmat servot on kytketty oikein, niiden pitäisi pyörittää moottoria vuorotellen.
+Kytke Arduino USB-kaapelilla tietokoneeseen ja lataa siihen ohjelma [Tassujen heilutus](/tassujen_heilutus/tassujen_heilutus.ino). Kun molemmat servot on kytketty oikein, niiden pitäisi pyörittää moottoria vuorotellen.
 
 ### Asentokytkin
 
@@ -60,7 +60,7 @@ Kaiuttimen toiseen jalkaan kytketään ohjaus (g-22) Arduinon pinnistä 12 ja to
 
 **Kytkennän testaus**
 
-Testataan asentokytkimen ja kaiuttimen toiminta yhtäaikaa. Lataa Arduinoon ohjelma [varoitus kaatumisesta](varoitus_kaatumisesta/varoitus_kaatumisesta.ino). Kun kytkentä on normaalisti pöydällä pitäisi kuulua sireeniä muistuttava ääni. Kun nostat kytkentäkokonaisuuden ylös ja käännät sen siten, että asentokytkin on pystysuunnassa, niin sireenin ääni lakkaa.
+Testataan asentokytkimen ja kaiuttimen toiminta yhtäaikaa. Lataa Arduinoon ohjelma [varoitus kaatumisesta](/varoitus_kaatumisesta/varoitus_kaatumisesta.ino). Kun kytkentä on normaalisti pöydällä pitäisi kuulua sireeniä muistuttava ääni. Kun nostat kytkentäkokonaisuuden ylös ja käännät sen siten, että asentokytkin on pystysuunnassa, niin sireenin ääni lakkaa.
 
 ![Asentokytkimen ja kaiuttimen testaus](kuvat/asentokytkin_kaiutin_testaus.jpg)
 
@@ -74,7 +74,7 @@ Valovastuksen jalkoihin kytketään jännite siten, että – tulee vastuksen ka
 
 **Kytkennän testaus**
 
-Lataa Arduinoon ohjelma [ohikulkijalle vilkutus](ohikulkijalle_vilkutus/ohikulkijalle_vilkutus.ino). Ensimmäisen viiden sekunnin aikana ohjelma kalibroi valovastuksen valitsevaan valon määrään. Kun tämän jälkeen peität valovastuksen siten, että siihen pääsee vähemmän valoa, toisen servon moottorin pitäisi liikkua. Kun lopetata valovastuksen peittämisen, moottorin pitäisi sammua.
+Lataa Arduinoon ohjelma [ohikulkijalle vilkutus](/ohikulkijalle_vilkutus/ohikulkijalle_vilkutus.ino). Ensimmäisen viiden sekunnin aikana ohjelma kalibroi valovastuksen valitsevaan valon määrään. Kun tämän jälkeen peität valovastuksen siten, että siihen pääsee vähemmän valoa, toisen servon moottorin pitäisi liikkua. Kun lopetata valovastuksen peittämisen, moottorin pitäisi sammua.
 
 ### Komponenttien asennus nallen sisään
 
