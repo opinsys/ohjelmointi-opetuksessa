@@ -30,7 +30,7 @@ Kytketään jännite koekytkentälevyyn. Tämä saadaan aikaiseksi kytkemällä 
 
 ![Servo](kuvat/servo.jpg)
 
-Servot tarvitsevat jännitteen lisäksi Arduinolta tulevan ohjauksen. Servojen liittimet eivät käy suoraan koekytkentälevyyn, joten kytkentää varten pitää asentaa piikkirimat (f-1,2,3 ja f-4,5,6).  + ja – saadaan kätevästi oikeasta laidasta lyhyillä hyppylangoilla (j-2, j-3, j-5, j-6). Lopuksi Arduinon pinneistä 2 ja 4 asennetaan johto servojen ohjausjohdon kohdalle (i-4 ja h-1). Servojen liittimet voidaan kytkeä molemmin päin, joten huomio tämä tehdessäsi lopullista asennusta. Servon liittimessä punainen on +, musta on – ja keltainen on ohjaus.
+Servot tarvitsevat jännitteen lisäksi Arduinolta tulevan ohjauksen. Servojen liittimet eivät käy suoraan koekytkentälevyyn, joten kytkentää varten pitää asentaa piikkirimat (f-1,2,3 ja f-4,5,6).  + ja – saadaan kätevästi oikeasta laidasta lyhyillä hyppylangoilla (j-2, j-3, j-5, j-6). Lopuksi Arduinon pinneistä 2 ja 4 asennetaan johto servojen ohjausjohdon kohdalle (i-4 ja h-1). Servojen liittimet voidaan kytkeä molemmin päin, joten huomioi tämä tehdessäsi lopullista asennusta. Servon liittimessä punainen on +, musta on – ja keltainen on ohjaus.
 
 ![Kytkentä, servot](kuvat/kytkenta_servot.jpg)
 
