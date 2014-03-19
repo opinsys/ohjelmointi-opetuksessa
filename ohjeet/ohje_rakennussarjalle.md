@@ -84,7 +84,7 @@ Nallen selässä on tarrakiinnitys, jonka avaamalla päästään nallen sisälle
 
 ![Nallen avaus](kuvat/nalle_auki.jpg)
 
-Ensimmäiseksi nallen sisälle täytyy tehdä tilaa komponenteille, jote täytettä otetaan reilusti pois. Ota täyte talteen, koska tarvitset sitä myöhemmässä vaiheessa.
+Ensimmäiseksi nallen sisälle täytyy tehdä tilaa komponenteille, joten täytettä otetaan reilusti pois. Ota täyte talteen, koska tarvitset sitä myöhemmässä vaiheessa.
 
 #### Valovastus
 
@@ -100,7 +100,7 @@ Valovastusten kytkemiseen rakennussarjassa on kaksi  n. 25cm mittaista naaras-ur
 
 Servojen lapoja on jatkettava, jotta niitä voidaan käyttää tassujen heiluttamiseen. Tähän käytetään rautalangan pätkiä (n. 15cm), jotka tulevat rakennussarjan mukana.
 
-Taita aluksi rautalangan päätä, jotta tukeva kiinnitys on helpompi tehdä
+Taita aluksi rautalangan päätä, jotta tukeva kiinnitys on helpompi tehdä.
 
 ![Rautalanka](kuvat/taivutettu_rautalanka.jpg)
 
@@ -108,7 +108,7 @@ Ujuta rautalangan taivutettu pää servon lavan reiästä.
 
 ![Rautalanka](kuvat/taivutettu_rautalanka_servo.jpg)
 
-Tämän jälkeen kiinnitä sidoslangan avulla rautalanka tiukasti lapaan kiinni
+Tämän jälkeen kiinnitä sidoslangan avulla rautalanka tiukasti lapaan kiinni.
 
 ![Rautalanka](kuvat/rautalangan_sitominen.jpg)
 
