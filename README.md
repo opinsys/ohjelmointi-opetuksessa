@@ -8,6 +8,8 @@ Havainnollistamisessa on käytetty nallea, joka on hyvin perinteinen pehmolelu. 
 
 [Nallen rakennusohje](ohjeet/nallen_rakennus.md).
 
+[Ohje rakennussarjan kokoamiseen](ohjeet/ohje_rakennussarjalle.md)
+
 ## Arduino-ympäristön asennus
 
 Opinsys:n palvelun piiriin kuuluvilla laitteilla ympäristö on valmiiksi asennettuna.
