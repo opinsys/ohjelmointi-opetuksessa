@@ -130,10 +130,10 @@ USB-kaapeliin kannattaa tehdä nippusiteen avulla pieni lenkki, jolloin Arduinon
 
 Kytkentäkokonaisuus (Arduino, koekytkentälevy, usb-kaapeli) kannattaa asentaa nalleen siten, että koekytkentälevy jää lähimmäksi selässä olevaa aukkoa. Näin johtojen kytkeminen onnistuu helpommin.
 
-Lopuksi kiinnitetään vapaana olevat johdot kytkentään ja suljetaan nalle.
+Lopuksi kiinnitetään vapaana olevat johdot kytkentään ja lisätään tarvittaessa täytettä niin, että nalle pysyy ryhdikkäästi pystyssä.
 
 ![Arduinon asennus nallen sisään](kuvat/arduinon_asennus_nallen_sisaan.jpg)
 
-Nalle on valmis!
+Suljetaan tarrakiinnitys ja nalle on valmis!
 
 Hauskoja hetkiä ohjelmoinnin parissa!
