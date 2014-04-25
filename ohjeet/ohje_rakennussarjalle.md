@@ -112,7 +112,7 @@ Tämän jälkeen kiinnitä sidoslangan avulla rautalanka tiukasti lapaan kiinni.
 
 Lopuksi löysytä lavan ruuvia ja poista turhat välykset, jolloin rautalanka pysyy napakasti lavassa kiinni.
 
-Servot asennetaan nallen sisään vanerilevyn avulla. Asenna nippusiteet valmiiksi vanerilevyn reikiin. Tämän jälkeen laita levy nallen sisään selässä olevan reiän kautta. Nippusiteiden kohdalle tulee servot, joten niiden pitää olla tassujen kohdalla.
+Servot asennetaan nallen sisään vanerilevyn avulla. Asenna nippusiteet valmiiksi vanerilevyn reikiin. Tämän jälkeen laita levy ilman servoja nallen sisään selässä olevan reiän kautta. Nippusiteiden kohdalle tulee servot, joten niiden pitää olla tassujen kohdalla.
 
 ![Vanerilevy](kuvat/vanerilevyn_asennus_nalleen.jpg)
 
