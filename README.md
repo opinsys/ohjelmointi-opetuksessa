@@ -52,7 +52,7 @@ Nalle heiluttaa molempia tassujaan siten, että tassut ovat vastakkaisissa asenn
 
 Nalle vilkuttaa ohikulkijalle. Valovastuksen avulla tunnistetaan nallen edessä oleva liike ja tehdään tällöin tassulla vilkuttava liike.
 
-**Lähdekoodi:** [vilkutus.ino](ohikulkijalle_vilkutus/ohikulkijalle_vilkutus.ino)
+**Lähdekoodi:** [ohikulkijalle_vilkutus.ino](ohikulkijalle_vilkutus/ohikulkijalle_vilkutus.ino)
 
 [![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=aVeWTHidHvo)
 
