@@ -38,7 +38,7 @@ Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, j
 
 **Lähdekoodi:** [vilkutus.ino](vilkutus/vilkutus.ino)
 
-[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=ks9R499sEhE)
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=kRHZWqGnKMk)
 
 ## Tassujen heilutus
 
@@ -46,7 +46,7 @@ Nalle heiluttaa molempia tassujaan siten, että tassut ovat vastakkaisissa asenn
 
 **Lähdekoodi:** [tassujen_heilutus.ino](tassujen_heilutus/tassujen_heilutus.ino)
 
-[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=iwdxCTvZie8)
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=D_aKh5UHd9g)
 
 ## Ohikulkijalle vilkutus
 
