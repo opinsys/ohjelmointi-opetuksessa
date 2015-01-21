@@ -54,11 +54,15 @@ Nalle vilkuttaa ohikulkijalle. Valovastuksen avulla tunnistetaan nallen edessä 
 
 **Lähdekoodi:** [vilkutus.ino](ohikulkijalle_vilkutus/ohikulkijalle_vilkutus.ino)
 
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=aVeWTHidHvo)
+
 ## Varoitus kaatumisesta
 
 Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun nalle nostetaan takaisin istuma asentoon.
 
 **Lähdekoodi:** [varoitus_kaatumisesta.ino](varoitus_kaatumisesta/varoitus_kaatumisesta.ino)
+
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=9-po82v6v6E)
 
 ## Linkkejä
 
