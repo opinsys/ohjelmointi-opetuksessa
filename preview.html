@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ohjelmointi perusopetuksessa</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <style type="text/css">
+    html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      #push,
+      footer {
+        height: 60px;
+        background-color: #f5f5f5;
+      }
+
+      @media (max-width: 767px) {
+        footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+      .container .credit {
+        margin: 20px 0;
+      }
+    </style>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- testi -->
+    <div id="wrap">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ohjelmointi perusopetuksessa</a>
+          </div>
+          <!-- FIXME: poista nama
+               <div id="navbar" class="navbar-collapse collapse">
+                 <form class="navbar-form navbar-right">
+                   <div class="form-group">
+                     <input type="text" placeholder="Email" class="form-control">
+                   </div>
+                   <div class="form-group">
+                     <input type="password" placeholder="Password" class="form-control">
+                   </div>
+                   <button type="submit" class="btn btn-success">Sign in</button>
+                 </form>
+               </div><!--/.navbar-collapse -->
+               -->
+        </div>
+      </nav>
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1>Ohjelmointi perusopetuksessa</h1>
+          <p>
+            Opetushallitus on sisällyttänyt ohjelmoinnin perusopetuksen opetussuunnitelman perusteisiin <a href="http://www.oph.fi/ajankohtaista/tiedotteet/101/0/uudet_opetussuunnitelmien_perusteet_paatetty" target="_blank">(Tiedote 22.12.2014)</a>. Käytännössä tämä tarkoittaa sitä, että peruskoulussa opetetaan kaikilla vuosiluokilla ohjelmointi syksystä 2016 alkaen. Tällä sivustolla on avoimella lisenssillä (CC-BY) julkaistua materiaalia opettajien koulutukseen ja ohjelmoinnin opetukseen perusopetuksessa.
+          </p>
+          <!-- FIXME, mikä linkki tässä voisi olla?
+               <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+               -->
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+
+          <div class="col-md-4">
+            <h2>Koulutusmateriaali 1-6 asteen opettajille</h2>
+            <p>
+              Uudessa opetussuunnitelma ohjelmoinnin opetus aloitetaan jo ensimmäisiltä luokilta. Materiaali on yhdell koulutuspäivälle, jossa käydään läpi ohjelmoinnin opetus 1-6 luokka-asteelle opetussuunnitelma perusteluiden mukaisesti.
+            </p>
+            <p><a class="btn btn-default" href="#" role="button">Siirry materiaaliin &raquo;</a></p>
+          </div>
+
+          <div class="col-md-4">
+            <h2>Koulutusmateriaali 1-6 asteen opettajille, jatkokoulutus</h2>
+            <p>
+              Syvemmälle menevä koulutus ohjelmoinnista ja robotiikasta. Työkaluna käytetään Opinsys-nallea, joka perustuu avoimen lähdekoodin Arduino-ympäristöön.
+            </p>
+            <p><a class="btn btn-default" href="#" role="button">Siirry materiaaliin &raquo;</a></p>
+          </div>
+
+          <div class="col-md-4">
+            <h2>Opinsys-nalle</h2>
+            <p>
+              Nalle helpottaa ohjelmoinnin oppimista ja tekee siitä kiehtovaa ja mielenkiintoista. Nalle helpottaa ohjelmoinnin oppimista ja tekee siitä kiehtovaa ja mielenkiintoista.
+            </p>
+            <p><a class="btn btn-default" href="http://www.opinsys.fi/nalle" role="button">Tutustu tarkemmin &raquo;</a></p>
+          </div>
+
+          <div class="col-md-4">
+            <h2>Teknologiakasvatus - oppitunti ohjelmoinnista</h2>
+            <p>
+              Tiivis oppitunti (45min) ohjelmoinnista koodaustunti.fi ja Opinsys-nallea hyödyntäen.
+            </p>
+            <p><a class="btn btn-default" href="http://ohjelmointi.opinsys.fi" role="button">Siiry materiaaliin &raquo;</a></p>
+          </div>
+
+          <div class="col-md-4">
+            <h2>Koodaustunti.fi</h2>
+            <p>
+              Koodaustunti on yhden tunnin mittainen johdatus tietojenkäsittelytieteeseen, joka toteutetaan haluamanasi ajankohtana. Koodaustunnin tarkoituksena on tutustuttaa "koodaamiseen" ja tehdä sitä arkipäiväiseksi.
+            </p>
+            <img src="http://koodaustunti.fi/kuvat/koodaustunti_logo_white-red.png" style="backgroud: black">
+            <p><a class="btn btn-default" href="#" role="button">Tutustu tarkemmin &raquo;</a></p>
+          </div>
+
+          <div class="col-md-4">
+            <h2>KOODI2016</h2>
+            <p>
+              Koodi2016-opas ja -verkkosivusto kertovat opettajille ja opetusalan päättäjille, miksi ohjelmointi on tärkeää ja miten sitä voi opettaa. Alla oppaan sisältö on tiivistetty yhdeksään kohtaan.
+            </p>
+            <p><a class="btn btn-default" href="http://koodi2016.fi/nalle" role="button">Tutustu tarkemmin &raquo;</a></p>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="push"></div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Opinsys Oy 2015</p>
+        <p>Facebook</p>
+        <p>Twitter</p>
+        <p>http://www.opinsys.fi</p>
+      </div>
+    </footer>
+    <!-- /testi -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
