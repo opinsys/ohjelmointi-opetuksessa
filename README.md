@@ -38,7 +38,7 @@ Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, j
 
 **Lähdekoodi:** [vilkutus.ino](vilkutus/vilkutus.ino)
 
-[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=kRHZWqGnKMk)
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=kRHZWqGnKMk)
 
 ## Tassujen heilutus
 
@@ -46,7 +46,7 @@ Nalle heiluttaa molempia tassujaan siten, että tassut ovat vastakkaisissa asenn
 
 **Lähdekoodi:** [tassujen_heilutus.ino](tassujen_heilutus/tassujen_heilutus.ino)
 
-[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=D_aKh5UHd9g)
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=D_aKh5UHd9g)
 
 ## Ohikulkijalle vilkutus
 
@@ -54,7 +54,7 @@ Nalle vilkuttaa ohikulkijalle. Valovastuksen avulla tunnistetaan nallen edessä 
 
 **Lähdekoodi:** [vilkutus.ino](ohikulkijalle_vilkutus/ohikulkijalle_vilkutus.ino)
 
-[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=aVeWTHidHvo)
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=aVeWTHidHvo)
 
 ## Varoitus kaatumisesta
 
@@ -62,7 +62,7 @@ Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun 
 
 **Lähdekoodi:** [varoitus_kaatumisesta.ino](varoitus_kaatumisesta/varoitus_kaatumisesta.ino)
 
-[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/video/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=9-po82v6v6E)
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=9-po82v6v6E)
 
 ## Linkkejä
 
