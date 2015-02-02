@@ -8,8 +8,8 @@
 
     <title>Ohjelmointi perusopetuksessa</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-united.css">
     <style type="text/css">
     html,
       body {
@@ -57,7 +57,7 @@
   <body>
     <!-- testi -->
     <div id="wrap">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -79,7 +79,7 @@
                    </div>
                    <button type="submit" class="btn btn-success">Sign in</button>
                  </form>
-               </div><!--/.navbar-collapse -->
+               </div>
                -->
         </div>
       </nav>
@@ -88,9 +88,16 @@
       <div class="jumbotron">
         <div class="container">
           <h1>Ohjelmointi perusopetuksessa</h1>
-          <p>
-            Opetushallitus on sisällyttänyt ohjelmoinnin perusopetuksen opetussuunnitelman perusteisiin <a href="http://www.oph.fi/ajankohtaista/tiedotteet/101/0/uudet_opetussuunnitelmien_perusteet_paatetty" target="_blank">(Tiedote 22.12.2014)</a>. Käytännössä tämä tarkoittaa sitä, että peruskoulussa opetetaan kaikilla vuosiluokilla ohjelmointi syksystä 2016 alkaen. Tällä sivustolla on avoimella lisenssillä (CC-BY) julkaistua materiaalia opettajien koulutukseen ja ohjelmoinnin opetukseen perusopetuksessa.
-          </p>
+          <div class="row">
+            <div class="col-md-8">
+              <p>
+                Opetushallitus on sisällyttänyt ohjelmoinnin perusopetuksen opetussuunnitelman perusteisiin <a href="http://www.oph.fi/ajankohtaista/tiedotteet/101/0/uudet_opetussuunnitelmien_perusteet_paatetty" target="_blank">(Tiedote 22.12.2014)</a>. Käytännössä tämä tarkoittaa sitä, että peruskoulussa opetetaan kaikilla vuosiluokilla ohjelmointi syksystä 2016 alkaen. Tällä sivustolla on avoimella lisenssillä (CC-BY) julkaistua materiaalia opettajien koulutukseen ja ohjelmoinnin opetukseen perusopetuksessa.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <iframe width="400" height="255" src="https://www.youtube.com/embed/2F2WOuL_-t4" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
           <!-- FIXME, mikä linkki tässä voisi olla?
                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
                -->
@@ -102,17 +109,17 @@
         <div class="row">
 
           <div class="col-md-4">
-            <h2>Koulutusmateriaali 1-6 asteen opettajille</h2>
+            <h2>Ohjelmoinnin alkeiskoulutus alakoulun opettajille</h2>
             <p>
-              Uudessa opetussuunnitelma ohjelmoinnin opetus aloitetaan jo ensimmäisiltä luokilta. Materiaali on yhdell koulutuspäivälle, jossa käydään läpi ohjelmoinnin opetus 1-6 luokka-asteelle opetussuunnitelma perusteluiden mukaisesti.
+              Uudessa opetussuunnitelma ohjelmoinnin opetus aloitetaan jo ensimmäisiltä luokilta. Materiaali on yhdelle koulutuspäivälle, jossa käydään läpi ohjelmoinnin opetus 1-6 luokka-asteelle opetussuunnitelma perusteluiden mukaisesti.
             </p>
             <p><a class="btn btn-default" href="#" role="button">Siirry materiaaliin &raquo;</a></p>
           </div>
 
           <div class="col-md-4">
-            <h2>Koulutusmateriaali 1-6 asteen opettajille, jatkokoulutus</h2>
+            <h2>Ohjelmoinnin jatkokoulutus alakoulun opettajille</h2>
             <p>
-              Syvemmälle menevä koulutus ohjelmoinnista ja robotiikasta. Työkaluna käytetään Opinsys-nallea, joka perustuu avoimen lähdekoodin Arduino-ympäristöön.
+              Syvemmälle menevä koulutus ohjelmoinnista ja robotiikasta. Työkaluna käytetään Opinsys-nallea, joka perustuu avoimen lähdekoodin Arduino-ympäristöön. Koulutuksessa opittuja asioita voidaan hyödyntään minkä tahansa Arduino-pohjaisen ohjelmoinnin parissa.
             </p>
             <p><a class="btn btn-default" href="#" role="button">Siirry materiaaliin &raquo;</a></p>
           </div>
@@ -122,32 +129,32 @@
             <p>
               Nalle helpottaa ohjelmoinnin oppimista ja tekee siitä kiehtovaa ja mielenkiintoista. Nalle helpottaa ohjelmoinnin oppimista ja tekee siitä kiehtovaa ja mielenkiintoista.
             </p>
+            <img src="img/nalle-card.png" height=200 />
             <p><a class="btn btn-default" href="http://www.opinsys.fi/nalle" role="button">Tutustu tarkemmin &raquo;</a></p>
           </div>
 
           <div class="col-md-4">
             <h2>Teknologiakasvatus - oppitunti ohjelmoinnista</h2>
             <p>
-              Tiivis oppitunti (45min) ohjelmoinnista koodaustunti.fi ja Opinsys-nallea hyödyntäen.
+              Tiivis oppitunti (45min) ohjelmoinnista koodaustunti.fi ja Opinsys-nallea hyödyntäen. Tunti on suunniteltu n. 20 hengen ryhmälle siten, että käytettävissä on 20 titeokonetta ja viisi nallea.
             </p>
             <p><a class="btn btn-default" href="http://ohjelmointi.opinsys.fi" role="button">Siiry materiaaliin &raquo;</a></p>
           </div>
 
           <div class="col-md-4">
-            <h2>Koodaustunti.fi</h2>
+            <img src="http://koodaustunti.fi/kuvat/koodaustunti_logo_white-red.png" style="backgroud: black">
             <p>
               Koodaustunti on yhden tunnin mittainen johdatus tietojenkäsittelytieteeseen, joka toteutetaan haluamanasi ajankohtana. Koodaustunnin tarkoituksena on tutustuttaa "koodaamiseen" ja tehdä sitä arkipäiväiseksi.
             </p>
-            <img src="http://koodaustunti.fi/kuvat/koodaustunti_logo_white-red.png" style="backgroud: black">
-            <p><a class="btn btn-default" href="#" role="button">Tutustu tarkemmin &raquo;</a></p>
+            <p><a class="btn btn-default" href="http://koodaustunti.fi" role="button" target="_blank">Tutustu tarkemmin &raquo;</a></p>
           </div>
 
           <div class="col-md-4">
-            <h2>KOODI2016</h2>
+            <img src="img/koodi2016-logo.png" height="50" />
             <p>
               Koodi2016-opas ja -verkkosivusto kertovat opettajille ja opetusalan päättäjille, miksi ohjelmointi on tärkeää ja miten sitä voi opettaa. Alla oppaan sisältö on tiivistetty yhdeksään kohtaan.
             </p>
-            <p><a class="btn btn-default" href="http://koodi2016.fi/nalle" role="button">Tutustu tarkemmin &raquo;</a></p>
+            <p><a class="btn btn-default" href="http://koodi2016.fi" role="button" target="_blank">Tutustu tarkemmin &raquo;</a></p>
           </div>
 
         </div>
