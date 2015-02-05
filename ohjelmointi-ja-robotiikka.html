@@ -58,13 +58,10 @@
 
         <section data-markdown>
           <script type="text/template">
-            # Tavoitteet
+            # Tavoite
 
             1. Valmius käyttää nallea-ohjelmoinnin opetuksessa
-            1. Herättää keskustelua teknologiakasvatuksesta
-              - Kuinka saadaan lapset oppimaan?
-              - Kuinka saadaan lapset innostumaan?
-            1. Opitun soveltaminen omaan robotti-projektiin
+            1. Valmius soveltaa opittua omassa robotti-projektissa
           </script>
 	</section>
 
@@ -73,7 +70,7 @@
             # Työskentelytavat
 
             - Opiskellaan ohjelmointia ohjelmoimalla, tekemällä oppii!
-            - Keskustellaan, kysykää
+            - Keskustellaan
               - Keskeytä välitömästi, jos jokin asia jää epäselväksi
           </script>
 	</section>
@@ -90,9 +87,8 @@
           <script type="text/template">
             ## Harjoitus 1
             
-            - Kytke kaksi servo-moottoria Arduinoon koekytkentälevyn avulla. Katso seuraava ohje: https://github.com/opinsys/ohjelmointi-opetuksessa/blob/master/ohjeet/ohje_rakennussarjalle.md
-            - Kerro Servo moottoreista, mitä ne ovat. Mitä on servomoottoreiden johtimet, johdinten väri.
-            - Testaa kytkennät ohjelmoimalla servoja käyttäen Snap4Arduino (nalle-ohjelmointi) työkalua.
+            - Kytke kaksi servo-moottoria Arduinoon koekytkentälevyn avulla.
+            - Katso seuraava ohje: https://github.com/opinsys/ohjelmointi-opetuksessa/blob/master/ohjeet/ohje_rakennussarjalle.md
           </script>
 	</section>
 
@@ -133,10 +129,15 @@
             ## Harjoitus 2
 
             - Kytke asentokytkin Aruinoon ohjeen mukaisesti
-            - Testaa kytkimen toiminnallisuus Serial-monitorin avulla
-            - "arduino serial monitor digital"
+            - Testaa kytkimen toiminnallisuus Serial-monitorin avulla (digitaalinen)
+            - File -> Examples -> Basic -> DigitalReadSerial
 
+            <pre><code>
+                int pushButton = 8;
+            </code></pre>
           </script>
+
+          <!-- Hakusana: "arduino serial monitor digital" -->
 	</section>
 
         <section data-markdown>
@@ -144,7 +145,9 @@
             ## Harjoitus 3
 
             - Kytke piezo-kaiutin Arduinoon ohjeen mukaisesti
-            - Testaa kytkentä ohjelmoimalla kuulumaan kaiuttimesta nuotti A (440) (sama ääni kuin ääniraudassa)
+            - Testaa kytkentä ohjelmoimalla kuulumaan kaiuttimesta nuotti A (440) (sama ääni kuin ääniraudassa) kolmen sekunnin ajan
+            - Hyödynnä Arduinon dokumentaatiota
+              - http://arduino.cc -> Learning -> Reference -> tone() / noTone()
           </script>
 	</section>
 
@@ -152,40 +155,20 @@
           <script type="text/template">
             ## Harjoitus 4
 
-            - Yhdistä edellisten harjoitusten ohjelmat. Soita a-nuotti, kun nalle on nurin.
-            - "arduino tone" tone / noTone
-            - Yritä toteuttaa sireeni
+            - Yhdistä edellisten harjoitusten ohjelmat. Soita a-nuotti, kun nalle kaadetaan.
           </script>
 	</section>
         <section data-markdown>
           <script type="text/template">
             ## Harjoitus 5
 
-            - Kytke valovastus Arduinoon
+            - Kytke valovastus Arduinoon ohjeen mukaisesti
             - Selvitä valovastuksen arvot eri tilanteissa Serial-monitorin avulla (analoginen)
-            - "arduino serial monitor analog"
+            - File -> Examples -> Basic -> AnalogReadSerial
             - Liikuta tassua, kun kun valovastus peitetään kädellä
-            - Kerro Arduino dokumentaatiosta, example, reference
           </script>
+          <!-- - Hakusana: "arduino serial monitor analog" -->
 	</section>
-
-
-        <section data-markdown>
-          <script type="text/template">
-            # Servon kykennät ja tassut heilumaan
-          </script>
-	</section>
-
-        <section data-markdown>
-          <script type="text/template">
-          </script>
-	</section>
-
-        <section data-markdown>
-          <script type="text/template">
-          </script>
-	</section>
-
 
         <section data-markdown>
           <script type="text/template">
