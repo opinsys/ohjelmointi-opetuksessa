@@ -26,7 +26,7 @@ Nalle-ohjelmointi (Snap4Arduino) sovelluksen asennuspaketit eri käyttöjärjest
 ![Kytkentäkaavio - Nalle](kytkentakaaviot/nalle_rakennussarja_bb.jpg "Kytkentäkaavio")
 
 **Komponentit**
-* 2kpl Servoja: GWS Micro L STD Servo Motor (GWSMICROL/STD/F)
+* 2kpl Servoja: Hitec HS-422
 * Valovastus: LDR07
 * Piezo-kaiutin: Ø17mm
 * Asentokytkin: cw1300
