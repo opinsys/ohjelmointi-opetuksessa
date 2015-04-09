@@ -23,7 +23,7 @@ Nalle-ohjelmointi (Snap4Arduino) sovelluksen asennuspaketit eri käyttöjärjest
 
 **Kytkentäkaavio**
 
-![Kytkentäkaavio - Nalle](kytkentakaaviot/nalle_bb.jpg "Kytkentäkaavio")
+![Kytkentäkaavio - Nalle](kytkentakaaviot/nalle_rakennussarja_bb.jpg "Kytkentäkaavio")
 
 **Komponentit**
 * 2kpl Servoja: GWS Micro L STD Servo Motor (GWSMICROL/STD/F)
