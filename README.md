@@ -18,6 +18,8 @@ Yhteisön sivuilta löytyy asennusohjeet eri käyttöjärjestelmille
 * [Windows](http://arduino.cc/en/Guide/Windows)
 * [Mac OS X](http://arduino.cc/en/Guide/MacOSX)
 * [Linux](http://www.arduino.cc/playground/Learning/Linux)
+ 
+Nalle-ohjelmointi (Snap4Arduino) sovelluksen asennuspaketit eri käyttöjärjestelmille: https://github.com/opinsys/Snap4Arduino/releases/tag/v1.1
 
 ## Esimerkit
 
