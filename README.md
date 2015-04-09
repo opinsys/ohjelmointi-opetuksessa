@@ -6,8 +6,6 @@ Käytettävien työkalujen keskeisenä osana on [Arduino](http://http://www.ardu
 
 Havainnollistamisessa on käytetty nallea, joka on hyvin perinteinen pehmolelu. Esimerkkejä voi toki hyödyntää muidenkin pehmolelujen kanssa. Opinsysiltä on saatavissa nalle valmiiksi paketoituna [rakennussarjana tai käyttövalmiina tuotteena](http://www.opinsys.fi/nalle).
 
-[Nallen rakennusohje](ohjeet/nallen_rakennus.md).
-
 [Ohje rakennussarjan kokoamiseen](ohjeet/ohje_rakennussarjalle.md)
 
 ## Arduino-ympäristön asennus
