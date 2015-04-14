@@ -4058,16 +4058,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-top: 6px;
 }
 
+.navbar-header {
+    float: right;
+}
+
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
   }
 }
-@media (min-width: 768px) {
-  .navbar-header {
-    float: right;
-  }
-}
+
 .navbar-collapse {
   overflow-x: visible;
   padding-right: 15px;
