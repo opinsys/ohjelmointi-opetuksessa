@@ -43,6 +43,23 @@
       .container .credit {
         margin: 20px 0;
       }
+
+      @media (max-width: 992px) {
+        .koodaustunti > img {
+          width: 180px;
+        }
+      }
+      @media (min-width: 992px) {
+        .koodaustunti > img {
+          width: 250px;
+        }
+      }
+      @media (min-width: 1200px) {
+        .koodaustunti > img {
+          width: 100%;
+        }
+      }
+
     </style>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
@@ -143,7 +160,7 @@
             <p><a class="btn btn-default" href="http://ohjelmointi.opinsys.fi" role="button">Siiry materiaaliin &raquo;</a></p>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 koodaustunti">
             <img src="http://koodaustunti.fi/kuvat/koodaustunti_logo_white-red.png" style="backgroud: black">
             <p>
               Koodaustunti on yhden tunnin mittainen johdatus tietojenkäsittelytieteeseen, joka toteutetaan haluamanasi ajankohtana. Koodaustunnin tarkoituksena on tutustuttaa "koodaamiseen" ja tehdä sitä arkipäiväiseksi.
