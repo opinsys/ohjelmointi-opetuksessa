@@ -7,4 +7,6 @@
 * Sähköä johtavaa ompelulankaa
 * Huomioliivi
 
+### Kytkentä
+
 ![Kytkentäkaavio - Huomioliivi](kytkentakaavio/kytkenta_bb.png "Kytkentäkaavio")
