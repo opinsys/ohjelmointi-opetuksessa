@@ -23,7 +23,7 @@ void setup()
 
   // Asetetaan vasemman telan moottorille nopeus 100.
   moottorit.setLeftSpeed(100);
-  // Asetetaan oikean telan moottorille nopeus 100.4
+  // Asetetaan oikean telan moottorille nopeus 100.
   moottorit.setRightSpeed(100);
 
   // Odotetaan kaksi sekuntia (2000 millisekuntia)
