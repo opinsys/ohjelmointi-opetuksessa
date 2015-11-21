@@ -1,10 +1,9 @@
 /*
-Tämä on yksinkertainen esimerkki Zumo 32u4 robotin moottorien
-käytöstä.
+Yksinkertainen esimerkki Zumo 32u4 robotin moottorien käytöstä.
 Esimerkissä robotti liikkuu eteenpäin kahden sekunnin ajan sen
 jälkeen kun on painettu A-painiketta.
 
-Katso myös:
+Katso myös seuraava esimerkki:
 https://github.com/pololu/zumo-32u4-arduino-library/blob/master/examples/MotorTest/MotorTest.ino
 */
 
@@ -13,7 +12,7 @@ https://github.com/pololu/zumo-32u4-arduino-library/blob/master/examples/MotorTe
 
 // Luodaan objekti, jonka kauttaa voidaan ohjata moottoreita.
 Zumo32U4Motors moottorit;
-// Luodaan objeckti nappiA.
+// Luodaan objekti nappiA.
 Zumo32U4ButtonA nappiA;
 
 void setup()
