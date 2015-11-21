@@ -1,6 +1,6 @@
 /*
 Tässä esimerkissä näytetään Zumo 32u4 robotin etureunassa
-olevan läheisyysanturin käyttööä.
+olevan läheisyysanturin käyttöä.
 
 Esimerkissä tulostetaan vasemmanpuoleisen läheisyysanturin
 arvo robotin LCD-näytölle.
