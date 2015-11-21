@@ -2,7 +2,9 @@
 
 Ajureiden, kirjastojen ja esimerkkien asennus $HOME/arduino hakemistoon:
 
+```
 wget -qO- https://raw.githubusercontent.com/opinsys/ohjelmointi-opetuksessa/master/zumo-32u4/install-Zumo32U4.sh | sh
+```
 
 ## Dokumentaatio
 
