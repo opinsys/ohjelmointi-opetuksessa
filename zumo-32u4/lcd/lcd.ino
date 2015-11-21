@@ -1,7 +1,7 @@
 /* 
 Tässä esimerkissä näytetään, kuinka käytetään Zumo 32U4
 robotin LCD-näyttöä.
-Esimerkissä tulostetaan näytölle teksti "Hei maailma"
+Esimerkissä tulostetaan näytölle teksti "Hei!"
 
 Katso myös seuraava esimerkki:
 https://github.com/pololu/zumo-32u4-arduino-library/blob/master/examples/LCDBasics/LCDBasics.ino
@@ -19,7 +19,7 @@ Zumo32U4LCD lcd;
 void setup()
 {
   // Tulostetaan LCD-näytölle teksti "Hei maailma"
-  lcd.print("Hei maailma");
+  lcd.print("Hei!");
 }
 
 void loop()
