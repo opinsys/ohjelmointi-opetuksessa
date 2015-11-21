@@ -1,5 +1,5 @@
 /*
-Yksinkertainen esimerkki Zumo 32u4 robotin moottorien käytöstä.
+Yksinkertainen esimerkki Zumo 32U4 robotin moottorien käytöstä.
 Esimerkissä robotti liikkuu eteenpäin kahden sekunnin ajan sen
 jälkeen kun on painettu A-painiketta.
 

@@ -37,7 +37,7 @@ void loop()
 
   // Tulostetaan robotin etupuolella olevan anturin
   // tila.
-  lcd.print(este_edessa.readBasicFront());
+  lcd.print(este_edessa.countsFrontWithLeftLeds());
 
   // Odotetaan 200 millisekuntia.
   delay(200);
