@@ -1,6 +1,6 @@
 ## Asennus
 
-Ajureiden, kirjastojen ja esimerkkien asennus $HOME/arduino hakemistoon:
+Ajureiden, kirjastojen ja esimerkkien asennus $HOME/sketchbook hakemistoon:
 
 ```
 wget -qO- https://raw.githubusercontent.com/opinsys/ohjelmointi-opetuksessa/master/zumo-32u4/install-Zumo32U4.sh | sh
