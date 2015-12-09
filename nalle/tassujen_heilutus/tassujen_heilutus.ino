@@ -13,7 +13,7 @@ void setup()
   vasen_tassu.attach(4); // Liitetään vasen tassu pinniin 4.
   oikea_tassu.attach(2); // Liitetään oikea tassu pinniin 2.
                          // Katson pinnit kytkentäkaaviosta:
-                         //   https://raw.githubusercontent.com/opinsys/ohjelmointi-opetuksessa/master/kytkentakaaviot/nalle_rakennussarja_bb.jpg
+                         //   https://raw.githubusercontent.com/opinsys/ohjelmointi-opetuksessa/master/nalle/kytkentakaaviot/nalle_rakennussarja_bb.jpg
 } 
  
 void loop() 

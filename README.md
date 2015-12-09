@@ -6,7 +6,7 @@ Käytettävien työkalujen keskeisenä osana on [Arduino](http://http://www.ardu
 
 Havainnollistamisessa on käytetty nallea, joka on hyvin perinteinen pehmolelu. Esimerkkejä voi toki hyödyntää muidenkin pehmolelujen kanssa. Opinsysiltä on saatavissa nalle valmiiksi paketoituna [rakennussarjana tai käyttövalmiina tuotteena](http://www.opinsys.fi/nalle).
 
-[Ohje rakennussarjan kokoamiseen](ohjeet/ohje_rakennussarjalle.md)
+[Ohje rakennussarjan kokoamiseen](nalle/ohjeet/ohje_rakennussarjalle.md)
 
 ## Arduino-ympäristön asennus
 
@@ -23,7 +23,7 @@ Nalle-ohjelmointi (Snap4Arduino) sovelluksen asennuspaketit eri käyttöjärjest
 
 **Kytkentäkaavio**
 
-![Kytkentäkaavio - Nalle](kytkentakaaviot/nalle_rakennussarja_bb.jpg "Kytkentäkaavio")
+![Kytkentäkaavio - Nalle](nalle/kytkentakaaviot/nalle_rakennussarja_bb.jpg "Kytkentäkaavio")
 
 **Komponentit**
 * 2kpl Servoja: Hitec HS-422
@@ -36,33 +36,33 @@ Nalle-ohjelmointi (Snap4Arduino) sovelluksen asennuspaketit eri käyttöjärjest
 
 Nalle vilkuttaa tassulla keskeytyksettä. Tassulle vuorotellaan kahta asentoa, joiden välissää on kahden sekunnin tauko.
 
-**Lähdekoodi:** [vilkutus.ino](vilkutus/vilkutus.ino)
+**Lähdekoodi:** [vilkutus.ino](nalle/vilkutus/vilkutus.ino)
 
-[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=kRHZWqGnKMk)
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/nalle/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=kRHZWqGnKMk)
 
 ## Tassujen heilutus
 
 Nalle heiluttaa molempia tassujaan siten, että tassut ovat vastakkaisissa asennoissa. Molemmilla tassuilla on vain kaksi asentoa, joita vuorotellaan kahden sekunnin välein.
 
-**Lähdekoodi:** [tassujen_heilutus.ino](tassujen_heilutus/tassujen_heilutus.ino)
+**Lähdekoodi:** [tassujen_heilutus.ino](nalle/tassujen_heilutus/tassujen_heilutus.ino)
 
-[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=D_aKh5UHd9g)
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/nalle/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=D_aKh5UHd9g)
 
 ## Ohikulkijalle vilkutus
 
 Nalle vilkuttaa ohikulkijalle. Valovastuksen avulla tunnistetaan nallen edessä oleva liike ja tehdään tällöin tassulla vilkuttava liike.
 
-**Lähdekoodi:** [ohikulkijalle_vilkutus.ino](ohikulkijalle_vilkutus/ohikulkijalle_vilkutus.ino)
+**Lähdekoodi:** [ohikulkijalle_vilkutus.ino](nalle/ohikulkijalle_vilkutus/ohikulkijalle_vilkutus.ino)
 
-[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=aVeWTHidHvo)
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/nalle/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=aVeWTHidHvo)
 
 ## Varoitus kaatumisesta
 
 Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun nalle nostetaan takaisin istuma asentoon.
 
-**Lähdekoodi:** [varoitus_kaatumisesta.ino](varoitus_kaatumisesta/varoitus_kaatumisesta.ino)
+**Lähdekoodi:** [varoitus_kaatumisesta.ino](nalle/varoitus_kaatumisesta/varoitus_kaatumisesta.ino)
 
-[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=9-po82v6v6E)
+[![Nalle](https://raw.github.com/opinsys/ohjelmointi-opetuksessa/master/nalle/ohjeet/kuvat/video.png)](http://www.youtube.com/watch?v=9-po82v6v6E)
 
 ## Linkkejä
 
@@ -72,5 +72,5 @@ Nalle päästää hälytysäänen, jos se kaadetaan. Hälytysääni sammuu, kun 
 
 Tämän projektin materiaali on Creative Commons 3.0 alaisuudessa
 
-![Lisenssi - CC BY](ohjeet/kuvat/cc_by.png "Lisenssi - CC BY")
+![Lisenssi - CC BY](nalle/ohjeet/kuvat/cc_by.png "Lisenssi - CC BY")
 
