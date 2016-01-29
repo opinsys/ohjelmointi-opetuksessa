@@ -11,6 +11,6 @@ wget -qO- https://raw.githubusercontent.com/opinsys/ohjelmointi-opetuksessa/mast
 Zumo 32U4 kirjastojen dokumentaatio: http://pololu.github.io/zumo-32u4-arduino-library/
 
 ## Tehtävä 1.
-Laataa esimerkki Zumo32U4_opinsys/lcd robottiin. Muokkaa ohjelmaa siten, että näytölle tulostetaan etunimesi.
+Lataa esimerkki Zumo32U4_opinsys/lcd robottiin. Muokkaa ohjelmaa siten, että näytölle tulostetaan etunimesi.
 
 
