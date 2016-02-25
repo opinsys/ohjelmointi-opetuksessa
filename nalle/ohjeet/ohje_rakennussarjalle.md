@@ -4,7 +4,7 @@ Lisätietoja rakennussarjasta ja sen hankkimisesta: [http://www.opinsys.fi/nalle
 
 ### Työkalut
 
-Tarvitset sivuleikkurit, kärkipihdit ja pienen ruuvimeisselin.
+Tarvitset johdonkuorintatyökalun tai sivuleikkurit, kärkipihdit, pienen taltta- ja ristipääruuvimeisselin.
 
 ### Valmistelevat toimenpiteet
 
@@ -92,7 +92,9 @@ Ensimmäisenä komponenttina kannattaa asentaa valovastus, koska myöhemmässä 
 
 ![Valovastuksen asennus](kuvat/valovastuksen_asennus.jpg)
 
-Valovastusten kytkemiseen rakennussarjassa on kaksi  n. 25cm mittaista naaras-uros kytkentäjohdinta. Valovastuksen jalat ovat liian ohuet kytkettäväksi suoraan ko. johtimeen, joten jalkoja on taivutettava esim. kärkipihdeillä. Tämän jälkeen kytkentäjohtojen naaraspuoli voidaan kytkeä valovastuksen jalkoihin.
+Valovastusten kytkemiseen rakennussarjassa on mukana sokeripala kahdella liittimellä. Jotta vastus saadaan kytkettyä sokeripalaan kunnolla, kannattaa vastuksen jalkoja taittaa esim. kärkipihdeillä. Tämä auttaa myös estämään vastuksen jalkojen osumista toisiinsa nallen sisällä.
+
+Liitettyäsi valovastuksen sokeripalaan, leikkaa kaksi (2) noin 25cm pitkää johdinta (esim. vihreää) ja kuori niiden toisesta päästä hieman normaalia vähemmän muovisuojusta pois. Kytke nämä päät sokeripalan toiselle puolelle, ja toiset päät koekytkentälevyn pinneihin, jossa valovastus oli testivaiheessa.
 
 ![Valovastuksen kytkentä](kuvat/valovastuksen_kytkenta.jpg)
 
