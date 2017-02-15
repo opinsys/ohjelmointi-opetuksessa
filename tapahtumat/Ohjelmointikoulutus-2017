@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="fi">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Ohjelmointi perusopetuksessa</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="../css/reveal.min.css">
+    <link rel="stylesheet" href="../css/theme/default.css" id="theme">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="../lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = '../css/print/pdf.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!--[if lt IE 9]>
+	<script src="../lib/js/html5shiv.js"></script>
+	<![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+        <!--
+        <section data-markdown>
+          <script type="text/template">
+          </script>
+	</section>
+        -->
+
+        <section data-markdown>
+          <script type="text/template">
+            # Ohjelmointi perusopetuksessa
+
+             Ohjelmointikoulutus 20176<!-- .element: style="color: gray;" -->
+
+             Opinsys Oy
+
+            Vihje: nuolinäppäimillä voit vaihtaa sivua <!-- .element: style="color: gray; font-size: 18pt; margin-top: 5em;" -->
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Tavoitteet
+
+            1. Perustiedot, mitä opetussuunnitelman perusteet sanovat ohjelmoinnista
+            1. Ymmärtää, miksi ohjelmoinnin opetus on tärkeää
+            1. Valmius opettaa ohjelmointia alakoulussa
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Työjärjestys
+
+            1. Käydään aluksi läpi riittävät taustatiedot ohjelmoinnista liittyen perusopetukseen
+            1. Opiskellaan ohjelmointia ohjelmoimalla, tekemällä oppii!
+            1. Keskustellaan
+              - Keskeytä välittömästi, jos jokin asia jää epäselväksi
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Mitä ohjelmointi on?
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Miksi ohjelmointia pitää opettaa peruskoulussa?
+
+            - Jotta ymmärtäisimme miten ympärillämme oleva teknologia toimii
+            - [Mikä ohjelmoinnin lukutaito?](https://kavi.fi/fi/blogi/mediakasvatus/mika-ohjelmoinnin-lukutaito) - Tomi Dufva
+            - Näin kaikki altistuvat ohjelmoinnille
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Opetussuunnitelman perusteet
+
+            - [Tiivistelmä opetussuunnitelman perusteista liittyen ohjelmointiin](http://www.opinsys.fi/ohjelmointi-ja-perusopetuksen-opetussuunnitelman-perusteet) - Jouni Korhonen
+          </script>
+	</section>
+
+        <section>
+          <h1>Vuosiluokat 1-2</h1>
+
+          <blockquote>
+            "Oppilaat saavat ja jakavat keskenään kokemuksia digitaalisen median parissa työskentelystä sekä ikäkaudelle sopivasta ohjelmoinnista."
+          </blockquote>
+          <blockquote>
+            "Tutustuminen ohjelmoinnin alkeisiin alkaa laatimalla vaiheittaisia toimintaohjeita, joita myös testataan."
+          </blockquote>
+          <p>Lähde: <a href="http://www.oph.fi/saadokset_ja_ohjeet/opetussuunnitelmien_ja_tutkintojen_perusteet/perusopetus">Perusopetuksen opetussuunnitelman perusteet 2014</a>
+	</section>
+
+        <section>
+          <h1>Vuosiluokat 3-6</h1>
+          <blockquote>
+            "Ohjelmointia kokeillessaan oppilaat saavat kokemuksia siitä, miten teknologian toiminta riippuu ihmisen tekemistä ratkaisuista."
+          </blockquote>
+          <blockquote>
+            "T14 innostaa oppilasta laatimaan toimintaohjeita tietokoneohjelmina graafisessa ohjelmointiympäristössä."
+          </blockquote>
+          <blockquote>
+            "Suunnitellaan ja toteutetaan ohjelmia graafisessa ohjelmointiympäristössä."
+          </blockquote>
+	</section>
+
+        <section>
+          <section>
+            <h1>Vuosiluokat 3-6</h1>
+
+            <blockquote>
+              "Matematiikan arviointikriteerit 6. vuosiluokan päätteeksi arviota ”hyvä” / arvosanaa kahdeksan: Oppilas osaa ohjelmoida toimivan ohjelman graafisessa ohjelmointiympäristössä."
+            </blockquote>
+            <blockquote>
+              "Harjoitellaan ohjelmoimalla aikaan saatuja toimintoja, joista esimerkkinä robotiikka ja automaatio. Kokeilujen pohjalta tuotetta tai teosta kehitetään vielä eteenpäin."
+            </blockquote>
+            <p>Lähde: <a href="http://www.oph.fi/saadokset_ja_ohjeet/opetussuunnitelmien_ja_tutkintojen_perusteet/perusopetus">Perusopetuksen opetussuunnitelman perusteet 2014</a>
+	  </section>
+          <section>
+            <h1>Vuosiluokat 7-9</h1>
+
+            <blockquote>
+              "Ohjelmointia harjoitellaan osana eri oppiaineiden opintoja."
+            </blockquote>
+            <blockquote>
+              "T20 ohjata oppilasta kehittämään algoritmista ajatteluaan sekä taitojaan soveltaa matematiikkaa ja ohjelmointia ongelmien ratkaisemiseen."
+            </blockquote>
+            <blockquote>
+              "Syvennetään algoritmista ajattelua. Ohjelmoidaan ja samalla harjoitellaan hyviä ohjelmointikäytäntöjä. Sovelletaan itse tehtyjä tai valmiita tietokoneohjelmia osana matematiikan opiskelua."
+            </blockquote>
+          </section>
+          <section>
+            <h1>Vuosiluokat 7-9</h1>
+
+            <blockquote>
+              "Oppilas osaa soveltaa algoritmisen ajattelun periaatteita ja osaa ohjelmoida yksinkertaisia ohjelmia."
+            </blockquote>
+            <blockquote>
+              "S3 Kokeilu: Käytetään sulautettuja järjestelmiä käsityöhön eli sovelletaan ohjelmointia suunnitelmiin ja valmistettaviin tuotteisiin."
+            </blockquote>
+            <p>Lähde: <a href="http://www.oph.fi/saadokset_ja_ohjeet/opetussuunnitelmien_ja_tutkintojen_perusteet/perusopetus">Perusopetuksen opetussuunnitelman perusteet 2014</a>
+	  </section>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Harjoitus, robotti ja ohjelmoija
+
+            - Robotti:
+              - Robotilla on käsi, jota ohjelmoija voi komentaa
+              - Ymmärtää vain hyvin yksityiskohtaiset komennot
+              - Mikäli ohjelmoijan komento on epäselvä tai monimutkainen, robotti toteaa: "en ymmmärrä"
+            - Ohjelmoija
+              - Yrittää päästä mahdollisimman helpolla ja pienellä määrällä komentoja
+            - Tehtävä 1:
+              - Ohjelmoi robotti kasamaan puupalikat torniksi
+            - Tehtävä 2:
+              - Miten ohjelmoit robotin, jos palikoita on 1000 kpl?
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            Tutustu koodikerhon materiaaliin: http://koodikerho.fi/opetusmateriaalit-1-0-beta/
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Koodaustunti
+
+            - Mene osoitteeseen http://koodaustunti.fi
+            - Paina nappia ![Mä aloitan heti :)](../img/koodaustunti.png)<!-- .element: style="height: 35px;" -->
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Nalle-ohjelmointi
+
+            - Käynnistä Nalle-ohjelmointisovellus valikon kautta
+             - menu -> Ohjelmointi -> Nalle-ohjelmointi
+            - Muodosta yhteys nalleen painamalla nappia ![Ohjaus](../img/yhdista.png)<!-- .element: style="height: 35px;" -->
+            - Lisää ![Ohjaus](../img/ohjaus.png)<!-- .element: style="height: 35px;" -->-valikosta ![Kun painetaan välilyöntiä](../img/kunpainetaan.png)<!-- .element: style="height: 40px;" --> -lohko ohjelmointialueeseen
+            - Lisää ![Nalle](../img/nalle.png)<!-- .element: style="height: 35px;" -->-valikosta ![Aseta tassu kohtaan 180](../img/tassu.png)<!-- .element: style="height: 40px;" --> -lohko aiemmin lisäämäsi lohkon alle
+            - Paina näppäimistöstä välilyöntiä
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ## Nalle-ohjelmointi
+
+            |   |   |
+            | :----------------------------------- | -----:|
+            | Tehtävä 1 <!-- .element: style="font-weight: bold; white-space: nowrap; padding-right: 1em; " --> | Ohjelmoi nalle nostamaan molemmat tassut ylös |
+            | Tehtävä 2 <!-- .element: style="font-weight: bold; white-space: nowrap;" -->  | Tee ohjelma, jolla nalle nostaa tassut ylös ja laskee ne sen jälkeen takaisin alas  <!-- .element: class="fragment" --> |
+            | Tehtävä 3 <!-- .element: style="font-weight: bold; white-space: nowrap;" --> | Yritä saada tassut liikkumaan eri tahtiin  <!-- .element: class="fragment" --> |
+            | Tehtävä 4 <!-- .element: style="font-weight: bold; white-space: nowrap;" --> | <span>Ohjelmoi nalle heiluttamaan tassua kymmenen kertaa. Hyödynnä tässä ![Toista 10 kertaa](../img/toista.png)<!-- .element: style="height: 40px;" -->-lohkoa, joka löytyy ![Ohjaus](../img/ohjaus.png)<!-- .element: style="height: 30px;" -->-valikosta</span> <!-- .element: class="fragment" --> |
+         </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Scratch
+
+            - Visuaalinen ohjelmointiympäristö
+            - Videoesittely: http://vimeo.com/65583694
+            - Sopii ensimmäiseksi ohjelmointiympäristöksi
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Sratch materiaalia
+
+            - [Scratch-klubi, Tero Toivanen](http://www.teromakotero.fi/scratch-klubi/)
+            - http://scratch.mit.edu/
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Scratch harjoituksia: komento
+
+            Tehdään yksinkertaisin mahdollinen ohjelma
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Scratch harjoituksia: Toistolause
+
+            Piirretään neliö hyödyntäen toistolausetta (toista 4 kertaa)
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Scratch harjoituksia: Ehdollinen toistolause
+
+            Siirrä kissaa eteenpäin, kunnes se koskettaa reunaa (toista kunnes...)
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Scratch harjoituksia: Funktio
+
+            - Funktio ts. oma komento
+            - Tehdään oma komento, joka piirtää halutun kokoisen neliön
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Scratch harjoituksia: Ehtolause
+
+            Piirrä taustakuvaan punainen nelikulmio. Ohjelmoi kissa piirtämään ruudun yli viiva siten, että punaisen neliön kohdalle piirretään viiva eri värillä.
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Scratch harjoituksia: Muuttuja
+
+            Siirrä kissaa kymmenen pykälää alaspäin siten, että jokaisen siirron jälkeen odotat 0.1 sekuntia.
+
+            Hyödynnä muuttujaa (Tieto -> Tee muuttuja)
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Soveltaminen
+
+            Ratkaise Scratch-klubin jatkohaaste 1: http://scratch.mit.edu/projects/30009834/
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Scratch-klubin jatkohaaste 1
+
+            - Kellon käynnistys
+            - Kellon pysäytys
+            - Kuluneiden minuuttien näyttäminen
+            - Kellon nollaaminen
+
+          </script>
+	</section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Lisätietoa
+
+            - [http://www.opinsys.fi/ohjelmointi-ja-perusopetuksen-opetussuunnitelman-perusteet](http://www.opinsys.fi/ohjelmointi-ja-perusopetuksen-opetussuunnitelman-perusteet)
+            <!-- .element: target="_blank" -->  *Kirjoitus, jossa tiivistetään miten ohjelmointi näkyy uusissa opetussuunnitelman perusteissa*
+
+            - [http://www.opinsys.fi/nalle](http://www.opinsys.fi/nalle)<!-- .element: target="_blank" -->  *Opinsys-nalle, työkalu ohjelmoinnin opettamiseen perusopetuksessa*
+
+            - [https://github.com/opinsys/ohjelmointi-opetuksessa](https://github.com/opinsys/ohjelmointi-opetuksessa)<!-- .element: target="_blank" -->  *Esimerkkejä nallen käytöstä*
+
+            - [http://koodi2016.fi/](http://koodi2016.fi/)<!-- .element: target="_blank" -->  *Ensiapu ohjelmoinnin opettamiseen peruskoulussa*
+          </script>
+        </section>
+
+        <section>
+          <h1>Yhteystiedot</h1>
+
+          <div style="float: left;">
+            <p>
+              <a href="http://www.opinsys.fi" target="_blank">Opinsys Oy</a>
+            </p>
+            <p>
+              <img src="../img/twitter-bird.png" style="background: #55ACEE; padding: 3px; margin: 15px;" />
+              <a href="https://twitter.com/opinsys" target="_blank">@opinsys</a>
+            </p>
+            <p>
+              <img src="../img/fb-logo.png" style="margin: 15px;" />
+              <a href="https://www.facebook.com/Opinsys" target="_blank">Opinsys</a>
+            </p>
+            <p>
+              info@opinsys.fi
+            </p>
+            <p>
+              (014) 4591 624
+            </p>
+          </div>
+
+          <div style="float: right;">
+            <p>Minna Kela</p>
+            <p>
+              <img src="../img/twitter-bird.png" style="background: #55ACEE; padding: 3px; margin: 15px;" />
+              <a href="https://twitter.com/kmimmuli" target="_blank">@kmimmuli</a>
+            </p>
+            <p>
+              minna.kela@opinsys.fi
+            </p>
+            <p>
+              0443407793
+            </p>
+            </br>
+          </div>
+
+        </section>
+      </div>
+
+    </div>
+
+    <script src="../lib/js/head.min.js"></script>
+    <script src="../js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+
+      theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+      transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+      // Parallax scrolling
+      // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+      // parallaxBackgroundSize: '2100px 900px',
+
+      // Optional libraries used to extend on reveal.js
+      dependencies: [
+      { src: '../lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: '../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: '../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: '../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: '../plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: '../plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+      });
+
+    </script>
+
+    <div style="position: absolute; top: 15px; right: 15px;">
+       <img src="http://www.opinsys.fi/wp-content/themes/responsive-opinsys-2.0/images/default-logo.png" height="40"/>
+    </div>
+
+  </body>
+</html>
