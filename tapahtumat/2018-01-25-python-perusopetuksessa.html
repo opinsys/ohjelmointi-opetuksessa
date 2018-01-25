@@ -91,16 +91,6 @@
 
         <section data-markdown>
           <script type="text/template">
-            # Mitä opimme?
-
-            - Osaatko suorittaa kirjan esimerkin Pythonilla myös puolen vuoden päästä?
-            - Mitä asioita pitäisi kirjata ylös muistilistaan?
-            - Mistä asioista pitäisi olla video-ohje?
-          </script>
-        </section>
-
-        <section data-markdown>
-          <script type="text/template">
             # Geany
 
             1. Valitse Menu -> Ohjelmointi -> Geany - monikielinen editori
@@ -145,7 +135,9 @@
           <script type="text/template">
             # Työskentelytapa
 
-            * Tee pienin mahdollinen muutos -> testaa
+            1. Tee pienin mahdollinen muutos
+            1. &#8658; testaa
+            1. Toista kohta 1. ja 2.
           </script>
         </section>
 
@@ -211,6 +203,8 @@
 
             ```
             <!-- .element: class="fragment" -->
+
+            <span>Lisätietoja: https://docs.python.org/3/library/functions.html#open</span><!-- .element: class="fragment" -->
           </script>
         </section>
 
@@ -231,7 +225,10 @@
             ```
             <!-- .element: class="fragment" -->
 
-            - Mitä ylimääräisiä merkkejä taulukko sisältää?<!-- .element: class="fragment" -->
+            Mitä ylimääräisiä merkkejä taulukko sisältää?<!-- .element: class="fragment" -->
+
+            <span>Lisätietoja: https://docs.python.org/3.3/tutorial/inputoutput.html#methods-of-file-objects</span><!-- .element: class="fragment" -->
+
             
           </script>
         </section>
@@ -252,7 +249,7 @@
             ```
             <!-- .element: class="fragment" -->
 
-            - Kuinka luot uuden tyhjän taulukon (listan) nimelläa oppilaat?<!-- .element: class="fragment" -->
+            - Kuinka luot uuden tyhjän taulukon (listan) nimellä oppilaat?<!-- .element: class="fragment" -->
               - Hae: "python list"<!-- .element: class="fragment" -->
             
 
@@ -408,21 +405,23 @@
             <!-- .element: class="fragment" -->
 
             ```
-            for oppilas in oppilaat:
-              if len(ryhmat) == ryhma_index:
-                # Luodaan ryhmän tauluko, mikäli sitä ei ole jo aiemmin tehty
+              for i in range(0, ryhmien_maara):
+                # Alustetaan ryhmien taulukot
                 ryhmat.append([])
 
-              # Lisätään oppilas ryhmään
-              ryhmat[ryhma_index].append(oppilas)
-              # Kasvatetaan ryhma_index arvoa yhdellä.
-              # Näin seuraava oppilas saadaan seuraavaan ryhmään
-              ryhma_index += 1
+              ryhma_index = 0
+              for oppilas in oppilaat:
+                # Lisätään oppilas ryhmään
+                ryhmat[ryhma_index].append(oppilas)
 
-              # Mikäli ryhmä_index vastaa ryhmien määrää,
-              # palataan ensimmäisen ryhmän indexiin
-              if ryhma_index == ryhmien_maara:
-                ryhma_index = 0
+                # Kasvatetaan ryhma_index arvoa yhdellä.
+                # Näin seuraava oppillas saadaan seuraavaan ryhmään
+                ryhma_index += 1
+                
+                # Mikäli ryhmä_index vastaa ryhmien määrää,
+                # palataan ensimmäisen ryhmän indexiin
+                if ryhma_index == ryhmien_maara:
+                  ryhma_index = 0
 
             ```
             <!-- .element: class="fragment" -->
@@ -434,30 +433,90 @@
             <!-- .element: class="fragment" -->
           </script>
         </section>
-
-        <section data-markdown>
-          <script type="text/template">
-            ## Oppilaiden jakaminen ryhmiin
-
-            <!-- .element: class="fragment" -->
-
-            - Miten for-looppia pitää muuttaa, että oppilaat saadaan jaettua haluttuun määrään ryhmiä?
-            <!-- .element: class="fragment" -->
-          </script>
-        </section>
         
         <section data-markdown>
           <script type="text/template">
             ## Oppilaiden jakaminen ryhmiin
 
-            - Määritetään muuttujaan, moneenko ryhmään oppilaat jaetaan <!-- .element: class="fragment" -->
+            Esimerkkitoteutus: https://github.com/opinsys/ohjelmointi-opetuksessa/blob/master/python/jaa_oppilaat_ryhmiin.py
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Micro:bit ja Python
+
+            * Valmistajan oma ohje: http://microbit.org/fi/guide/python/
+            * Editori Micro:bit Python-ohjelmointiin: https://python.microbit.org/v/1
+
+            </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Micro:bit ja Python
+            ## Ensimmäinen ohjelma
+
+            - Syötä editoriin seuraava ohjelmakoodi<!-- .element: class="fragment" -->
             ```
-            ryhmien_maara = 3
+            from microbit import *
+            display.show(Image.HEART)
             ```
             <!-- .element: class="fragment" -->
+
+            - Valitse editorissa Download<!-- .element: class="fragment" -->
+            - Käynnistä Tiedostot-ohjelma<!-- .element: class="fragment" -->
+            - Raahaa Lataukset kansiosta microbit.hex tiedosto MICROBIT -laitteen "päälle"<!-- .element: class="fragment" -->
+            
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Micro:bit ja Python
+            ## Musiikin toistaminen
+
+            - http://microbit-micropython.readthedocs.io/en/latest/tutorials/music.html
+            - Syötä editoriin seruaava ohjelmakoodi<!-- .element: class="fragment" -->
+            ```
+            import music
+            music.play(music.BIRTHDAY)
+            ```
+            <!-- .element: class="fragment" -->
+
+            - Lataa ohjelma laitteelle aiemman mallin mukaisesti<!-- .element: class="fragment" -->
+
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            # Micro:bit ja Python
+            ## Musiikin toistaminen
+
+            - Kokeile ohjelmoida oma melodia<!-- .element: class="fragment" -->
+            ```
+            import music
+            tune = ["C4:4", "D", "E", "C", "C", "D", "E", "C", "E",
+                    "F", "G:8", "E:4", "F", "G:8"]
+            music.play(tune)
+            ```
+            <!-- .element: class="fragment" -->
+
+            - Lataa ohjelma laitteelle aiemman mallin mukaisesti<!-- .element: class="fragment" -->
+
           </script>
         </section>
         
+        <section data-markdown>
+          <script type="text/template">
+            # Mitä opimme?
+
+            - Osaatko suorittaa kirjan esimerkin Pythonilla myös puolen vuoden päästä?
+            - Mitä asioita pitäisi kirjata ylös muistilistaan?
+            - Mistä asioista pitäisi olla video-ohje?
+          </script>
+        </section>
 
         <section>
           <h1>Yhteystiedot</h1>
